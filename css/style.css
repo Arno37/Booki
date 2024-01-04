@@ -22,13 +22,15 @@
 
     width: 1440px;
     height: 1821px;
+    margin:auto;
+    margin-left: 50px;
+    margin-right: 50px;
+   
   }
   
   .container {
       
-    max-width: 1440px;
-    margin:auto;
-    margin-left: 50px;
+   
    
   
   }
@@ -545,6 +547,7 @@
   align-self: stretch;
   margin-top: 30px;
   padding-left: 20px;
+  margin-right: 50px;
 
   
   }
@@ -619,26 +622,27 @@
         margin-top: 50px;
         display: flex;
         margin-left: 0px;
-        
-        
-        
-        
+        padding-bottom: 40px;
+            
 
       }
   
       .container{
          
-      max-width: 1024px;
+      width: 1024px;
        height: 1969px;
-       
-          
+       margin-left: 50px;
+       margin-right: 50px;
+    
       }
   
       .section-title{
   
-          padding-left: 20px;
+          
+          
       }
-    
+
+      
       .hebergements {
           
           width: 924px;
@@ -656,7 +660,7 @@
 gap: 20px;
 align-self: stretch;
 margin-bottom: 30px;
-margin-left: 20px;
+
   
         
       }
@@ -694,7 +698,7 @@ justify-content: center;
 align-items: center;
 flex: 1 0 0;
         width: 265px;
-        height: 146px;
+       
        
      
         
@@ -715,18 +719,17 @@ flex: 1 0 0;
   
       }
   .populaires-title {
+    margin-right: 10px;
 
   }
 
-       .activites {
-  
-          width: 92%;
-      }
+       
       .photos {
-          display: flex;
-          gap:15px;
-          margin-left: 15px;
-          
+       
+        width: 210px;
+        
+       
+        
           
        }
        .contain {
@@ -738,8 +741,9 @@ flex: 1 0 0;
   
        }
   
-      .A {
-          width: 95%;
+      .ANA {
+          width: 964px;
+          height: 163px;
           
       }
   
@@ -801,22 +805,29 @@ align-self: stretch;
   
   .container {
       max-width: 767px;
-      margin-left: 20px;
-      margin-right: 20px;
-     
-  
+      height: 4058px;
       
   
   }
       .booki{
-       
-       
-       
-      }
-  
+        display: flex;
+padding: 30px;
+flex-direction: column;
+align-items: center;
+
+       }
+
+
+  .contain{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+      
   
   .Hebergements{
-  
+    
   
   
   
@@ -917,24 +928,19 @@ align-self: stretch;
   .infogroup{
   
       display: flex;
-  
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 35px;
-      align-self: stretch;
-      margin-top: 
+  flex-direction: column;
+     justify-content: center;
+      gap: 8px;
+
+      
   
   }
   
   .un{
-  margin-right: 20px;
+  
   margin-left: 20px;
       display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
-  align-self: stretch;
-  color: #000;
+  
   
   /* Title/Section */
   font-family: Raleway;
