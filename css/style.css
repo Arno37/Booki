@@ -872,15 +872,16 @@ align-self: stretch;
       }
 
       .activitesamarseille .card{
-        width: 193px;
+        width: 185px;
     height: 270px;
-    
+    gap:0px;
 
 
       }
 
-      .activitesamarseille .card-content{
-        
+      .activitesamarseille {
+        display: flex;
+        justify-content: center;
       }
 
       
@@ -896,6 +897,7 @@ align-self: stretch;
        display: flex;
        flex-direction: column-reverse;
        width: 752px;
+       height: 3600px;
        
    
         }
@@ -909,7 +911,7 @@ align-self: stretch;
         height: 800px;
         margin-top: 50px;
         display: flex;
-        margin-left: 0px;
+        margin-left: 20px;
         margin-bottom: 15px;
         
         
@@ -929,9 +931,6 @@ align-self: stretch;
       width: 767px;
       margin: 0%;
       
-      
-       
-      
     
       }
 
@@ -941,33 +940,105 @@ align-self: stretch;
 
       
 
+      .haut{
+        width: 752px;
+        height: 650px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+padding: 0px 20px;
+flex-direction: column;
+align-items: flex-start;
+gap: 35px;
+align-self: stretch;
+
+      }
       .infogroup{
 
-        display: grid;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 742px;
+        height: 110px;
+        margin-top: 30px;
+        
+        
+        
       }
 
-      .topbar{
       
+      .infogroup .un{
+        height: 25px;
+        
+        
       }
+.infogroup .deux {
 
+
+    height: 19px;
+    width: 742px;
+    display: flex;
+    justify-content: center;
+}
 
       .zone{
-        display: flex;
-        align-items: center;
-        width: 70px;
-        height: 50px;
-        margin-bottom: 2.188em;
-        border-color: black;
-        border-width: 2px;
+        
 
       }
 
       .booki{
        
-        justify-content:flex-end
+        
+        width: 752px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: flex-end;
+        
+        
+        
         
       }
-        
+.menu{
+    width: 752px
+    
+    
+}
+
+.zone .fa-solid {
+    font-size: 40px;;
+}
+      
+.haut .encart{
+
+    color: var(--Black, #000);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--Grey, #f2f2f2);
+    padding: 16px 20px;
+    margin-left: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.haut .bouton {
+    .bouton {
+    padding: 16px 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 0px 15px 15px 0px;
+    border: 1px solid var(--Blue, #0065fc);
+    background: var(--Blue, #0065fc);
+    color: var(--White, #fff);
+    font-weight: bold;
+}
+}
   
       .hebergements .section-title{
   
@@ -984,19 +1055,16 @@ align-self: stretch;
       padding-bottom: 20px;
 }
 
-.un{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-    align-self: stretch;
+
 
 }
       
       .hebergements {
         width: 752px;
-        height: 2450px;
-    margin-top: 20px;;
+        height: 2700px;
+    margin-top: 20px;
+    margin-left: 30px;
+
     
       }
 
@@ -1021,28 +1089,39 @@ align-self: stretch;
         
             .premiers {
             display: grid;
-           margin-top: 15px;
+            height: 1240px;
+            
             gap:15px;
+            
             
         
             }
         
             .derniers {
                 display: grid;
-                padding-top: 135%;
-                gap:20px;
+                height: 1240px;
+                gap:15px;
     
               
             }
 
             .premiers .card{
-               height: 140%;
-               width: 680px;
-               margin-bottom: 5px;
+                width: 680px;
+                height: 380px;
+               
             }
 
             .derniers .card{
-                height: 140%;
+                width: 680px;
+                height: 380px;
+                
+            }
+
+            .afficher{
+                
+                font-size: 32px;
+                display: contents;
+                height:25px;
             }
             
     
@@ -1058,7 +1137,7 @@ align-self: stretch;
       .populaires .populaires-title{
         display: flex;
         justify-content: center;
-        gap:10px;
+        gap:20px;
         padding-bottom: 15px;
         
       }
@@ -1115,10 +1194,7 @@ align-self: stretch;
     
 }
 
-.populaires.fa-solid.fa-chart-line {
-  
 
-}
   
 .hebergements-cards .card-title {
     font-size: 26px;
@@ -1136,7 +1212,10 @@ align-self: stretch;
 
 .activites {
     width: 752px;
-    height: 905px;
+    height: 1800px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
    
 
     
@@ -1156,21 +1235,28 @@ display: grid;
 }
 
 .activitesamarseille .card{
-    width: 740px;
-    height: 400px;
+    width: 680px;
+    height: 380px;
     
     
 }
 
 .activitesamarseille .card img {
-    width: 100%;
-    height: 100%;
+    width: 680px;
+    height: 300px;
 }
 .activitesamarseille .card-content{
-    width: 695px;
-    height: 59px;
+height: 60px;
+
+    
 }
 
+.activitesamarseille .card-title {
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    padding-right: 19px;
+}
 
 .photos {
 width: 100%;
@@ -1181,33 +1267,29 @@ flex-direction: column
 
 
 }
-       .topbar {
-          display: flex;
-          justify-content: center;
-          margin-right: 20px;
-  gap: 68px;
-  
-  
-       }
+   
   
       .ANA {
           width: 364px;
           height: 461px;
-         
+          
 
           
       }
 
       .A{
-
+        width: 680px;
+        height: 461px;
         display:grid;
-padding: 30px;
-flex-direction: column;
-align-items: flex-start;
-gap: 50px;
-align-self: stretch;
+margin-bottom: 30px;
+margin-left: 30px;
+display: grid
+
+
       }
   
+
+
 
 
 }
