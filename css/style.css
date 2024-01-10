@@ -697,7 +697,7 @@ height: 20px;
         height: 35px;
         width: 244px;
         align-items: flex-end;
-        margin-right: 120px;
+        
 
       }
   
@@ -783,11 +783,11 @@ margin-bottom: 30px;
      
        }
        .topbar {
-        width: 1024px;
+        width: 161px;
+        height: 79px;
         
-          display: flex;
-          justify-content: space-between;
-          gap: 68px;
+          
+          gap: 10px;
   
   
        }
@@ -904,7 +904,7 @@ align-self: stretch;
       
       .populaires {
         width: 752px;
-        height: 800px;
+        height: 830px;
         margin-top: 50px;
         display: flex;
         
@@ -958,6 +958,7 @@ align-self: stretch;
         
         
         
+        
       }
       .section-title {
         font-size: 40px;
@@ -965,17 +966,14 @@ align-self: stretch;
       }
       
       .infogroup .un{
-        height: 25px;
+        height: 8px;
         
         
       }
 .infogroup .deux {
+height: 70px;
 
-
-    height: 19px;
-    width: 742px;
-    display: flex;
-    justify-content: center;
+    
 }
 
       .zone{
@@ -983,28 +981,57 @@ align-self: stretch;
 
       }
 
-      .booki{
-       
-        
-        width: 752px;
-        margin-top: 30px;
+      .topbar{
+        width: 730px;
+        height: 79px;
         display: flex;
-        justify-content: flex-end;
-        
-        
-        
+        justify-content: center;
+padding: 30px;
+
+gap: 10px;
+      }
+
+      
+
+
+      .booki img{
+padding: 30px;
+width: 135px;
+
+      }
+      .booki {
+        width: 210px;
+        height: 105px;
         
       }
+       
+     
+      
 .menu{
-    width: 752px
-    
-    
-}
-.topbar{
+    width: 767px;
     display: flex;
-    flex-flow: wrap;
-
+    text-align-last: center;
+    gap:15px
+    
+    
+    
 }
+
+.Hebergements{
+
+    width: 400px;
+    font-size: 20px;
+    
+    
+}
+
+.Activites{
+    width: 388px;
+    font-size: 20px;
+}
+
+
+
 .zone .fa-solid {
     font-size: 40px;;
 }
@@ -1097,7 +1124,7 @@ align-self: stretch;
                 display: grid;
                 height: 1240px;
                 gap:15px;
-                width: 690px;
+                width: 700px;
     
               
             }
@@ -1117,8 +1144,11 @@ align-self: stretch;
             .afficher{
                 
                 font-size: 32px;
-                display: contents;
+                display: flex;
+                justify-content: center;
                 height:25px;
+                width: 700px;
+                margin-top: 0px
             }
             
     .premiers .card-subtitle{
@@ -1128,8 +1158,9 @@ align-self: stretch;
       .populaires-cards .card-content{
         
         width: 680px;
-        height: 136px;
+        height: 180px;
         display: flex;
+        text-align-last: center;
         
        
       }
@@ -1175,7 +1206,8 @@ align-self: stretch;
       }
       
       .populaires-cards img {
-        width: 80%
+        width:580px;
+        height:200px;
     
       }
 
@@ -1212,12 +1244,9 @@ align-self: stretch;
 
 .activites {
     width: 767px;
-    height: 1630px;
+    height: 1660px;
+    margin-top: 10px;
     
-    
-    
-   
-
     
 }
 
@@ -1271,7 +1300,7 @@ flex-direction: column
   
       .ANA {
           width: 364px;
-          height: 461px;
+          height: 430px;
           margin-top: 35px;
           
 
@@ -1280,13 +1309,25 @@ flex-direction: column
 
       .A{
         width: 730px;
-        height: 461px;
+        height: 455px;
         display:grid;
-
-
-
+        text-align-last: center;
       }
-  
+
+      .apropos-cards .card-content{
+        width: 230px;
+        height:140px;
+      }
+      .noshebergements-cards .card-content{
+        width: 200px;
+        height: 110px;
+        
+      }
+      
+      .assistance-cards .card-content{
+        width: 200px;
+        height: 130px;
+      }
 
 
 
