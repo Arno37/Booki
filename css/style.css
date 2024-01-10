@@ -20,7 +20,7 @@
 
   body{
 
-    width: 1440px;
+    
 
     margin:auto;
     
@@ -32,6 +32,7 @@
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 58px;
+    
   }
   
   
@@ -429,7 +430,7 @@
           
           font-size: 14px;
           padding-left: 15px;
-          margin-bottom: 5px;
+          
           
         }
         
@@ -456,22 +457,26 @@
     .activites {
 
         margin-top: 65px;
-        width: 1280px;
+        width: 1340px;
+        height: 559px;
+        margin-right: 30px;
         
-       
         
-        
-      
 
     }
 
      .activitesamarseille .card {
 
 
-width: 298px;
+
 display: flex;
 flex-direction: column;
+
+
 height: 100%;
+width: 297px;
+
+
 
 
 
@@ -482,8 +487,9 @@ height: 100%;
 
      .activitesamarseille .card img {
         object-fit: cover;
-        height: 100%;
-        max-height: 380px;
+    
+        height: 380px;
+        width: 297px;
         border-radius: 20px 20px 0px 0px;
       }
 
@@ -492,9 +498,9 @@ height: 100%;
      .activitesamarseille {
 
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     height: 439px;
-    gap:30px;
+    
    
         
         
@@ -565,9 +571,7 @@ height: 100%;
     margin: 0;
   }
   
-  .populaires-cards .card-rating {
-    margin-bottom: 5px;
-  }
+ 
   
   .photos {
   
@@ -587,7 +591,7 @@ height: 100%;
       display: flex;
   align-items: flex-start;
   align-self: stretch;
-  margin-top: 65px;
+  
   padding-left: 20px;
   margin-right: 50px;
   width: 1340px;
@@ -675,7 +679,7 @@ height: 100%;
       .container{
          
       width: 1024px;
-       height: 1969px;
+       
        margin-left: 50px;
        margin-right: 50px;
     
@@ -697,11 +701,6 @@ height: 20px;
 
       }
   
-      .section-title{
-  
-          
-          
-      }
 
       
       .hebergements {
@@ -726,11 +725,7 @@ margin-bottom: 30px;
         
       }
     
-      .populaires-cards a {
-     
-        
-        
-      }
+    
     
       .populaires-cards .card-content{
         display: flex;
@@ -753,12 +748,9 @@ margin-bottom: 30px;
   
       .populaires-cards .card {
          
-        display: flex;
-
-justify-content: center;
-align-items: center;
-flex: 1 0 0;
+        
         width: 265px;
+        height: 135px;
        
        
      
@@ -768,7 +760,7 @@ flex: 1 0 0;
       
       .populaires-cards img {
         width: 91px;
-        height: 155px;
+        height: 135px;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
         
@@ -788,10 +780,7 @@ flex: 1 0 0;
       .photos {
        
         width: 210px;
-        
-       
-        
-          
+     
        }
        .topbar {
         width: 1024px;
@@ -806,12 +795,14 @@ flex: 1 0 0;
   
       .A{
         width: 924px;
+        height: 183px;
+        margin-top: 35px;
       }
   
       
   .hebergements-cards img {
-  height: 125px;
-  width: 150px;
+  height: 124px;
+  width: 268px;
   border-radius: 20px 20px 0px 0px;
   
   }
@@ -825,6 +816,8 @@ flex: 1 0 0;
       
         }
   
+        
+        
   
       .premiers {
        
@@ -881,9 +874,12 @@ align-self: stretch;
 
       .activitesamarseille {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly
       }
 
+      .A .apropos-cards, .noshebergements-cards, .assistance-cards{
+        align-items: center;
+      }
       
   
   }
@@ -911,7 +907,7 @@ align-self: stretch;
         height: 800px;
         margin-top: 50px;
         display: flex;
-        margin-left: 20px;
+        
         margin-bottom: 15px;
         
         
@@ -926,10 +922,9 @@ align-self: stretch;
       }
   
       .container{
-      
-         
-      width: 767px;
       margin: 0%;
+         
+      max-width: 767px;
       
     
       }
@@ -943,8 +938,7 @@ align-self: stretch;
       .haut{
         width: 752px;
         height: 650px;
-        margin-left: 20px;
-        margin-right: 20px;
+       
         display: flex;
 padding: 0px 20px;
 flex-direction: column;
@@ -965,7 +959,10 @@ align-self: stretch;
         
         
       }
-
+      .section-title {
+        font-size: 40px;
+        text-align: center;
+      }
       
       .infogroup .un{
         height: 25px;
@@ -1003,7 +1000,11 @@ align-self: stretch;
     
     
 }
+.topbar{
+    display: flex;
+    flex-flow: wrap;
 
+}
 .zone .fa-solid {
     font-size: 40px;;
 }
@@ -1027,7 +1028,7 @@ align-self: stretch;
 }
 
 .haut .bouton {
-    .bouton {
+    .bouton 
     padding: 16px 16px;
     align-items: center;
     justify-content: center;
@@ -1038,7 +1039,7 @@ align-self: stretch;
     color: var(--White, #fff);
     font-weight: bold;
 }
-}
+
   
       .hebergements .section-title{
   
@@ -1057,30 +1058,24 @@ align-self: stretch;
 
 
 
-}
+
       
       .hebergements {
         width: 752px;
         height: 2700px;
     margin-top: 20px;
-    margin-left: 30px;
+    
 
     
       }
 
       .hebergements-cards img {
-        width: 770px;
+        width: 690px;
         height: 230px;
         border-radius: 20px 20px 0px 0px;
         
         }
-        .hebergements-cards .card {
-            width: 680px;
-            height: 280px;
-          
-           
-            
-              }
+        
               .hebergements-cards .card-rating{
                 font-size: 22px;
                 display: flex;
@@ -1090,6 +1085,7 @@ align-self: stretch;
             .premiers {
             display: grid;
             height: 1240px;
+            width: 752px;
             
             gap:15px;
             
@@ -1101,18 +1097,19 @@ align-self: stretch;
                 display: grid;
                 height: 1240px;
                 gap:15px;
+                width: 690px;
     
               
             }
 
             .premiers .card{
-                width: 680px;
+                width: 690px;
                 height: 380px;
                
             }
 
             .derniers .card{
-                width: 680px;
+                width: 690px;
                 height: 380px;
                 
             }
@@ -1124,7 +1121,10 @@ align-self: stretch;
                 height:25px;
             }
             
-    
+    .premiers .card-subtitle{
+        text-align: center;
+
+    }
       .populaires-cards .card-content{
         
         width: 680px;
@@ -1211,10 +1211,10 @@ align-self: stretch;
     
 
 .activites {
-    width: 752px;
-    height: 1800px;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 767px;
+    height: 1630px;
+    
+    
     
    
 
@@ -1222,7 +1222,7 @@ align-self: stretch;
 }
 
 .activitesamarseille{
-display: flex;
+
 display: grid;
 
 }
@@ -1235,14 +1235,14 @@ display: grid;
 }
 
 .activitesamarseille .card{
-    width: 680px;
+    width: 690px;
     height: 380px;
     
     
 }
 
 .activitesamarseille .card img {
-    width: 680px;
+    width: 690px;
     height: 300px;
 }
 .activitesamarseille .card-content{
@@ -1272,18 +1272,17 @@ flex-direction: column
       .ANA {
           width: 364px;
           height: 461px;
+          margin-top: 35px;
           
 
           
       }
 
       .A{
-        width: 680px;
+        width: 730px;
         height: 461px;
         display:grid;
-margin-bottom: 30px;
-margin-left: 30px;
-display: grid
+
 
 
       }
