@@ -93,9 +93,10 @@
   .menu{
     display: flex;
     gap: 68px;
-    height:35px;
     align-items: flex-end;
     justify-content: flex-end;
+    list-style: none;
+    max-height: 10px;
    
   }
   .efrn {
@@ -127,26 +128,23 @@
       margin-bottom: 2.188em;
       
     }
-  .Activités {
-  
-  gap: 68px;
-    
-  }
+
+
+ 
   
   .Hebergements {
-   
     color: var(--Blue, #0065fc);
     
-    width: 113px;
-    padding-top: 15px;
-
-
   }
+  
 
-  .Hebergements:after{
-    top: 10%;
-    background: #0065FC;
-    
+  .Hebergements:hover{
+   
+   background-color: #0065fc;
+  height: 1px;
+   
+   
+  
   }
   
   .booki {
@@ -1186,6 +1184,14 @@ width: 210px;
     
 
     
+      }
+
+      .Hebergements:hover{
+   
+        background-color: #0065fc;
+height: 2px;
+f
+       
       }
 
       .hebergements-cards img {
