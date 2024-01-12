@@ -136,9 +136,17 @@
   .Hebergements {
    
     color: var(--Blue, #0065fc);
-    border-top: #0065fc;
+    
     width: 113px;
     padding-top: 15px;
+
+
+  }
+
+  .Hebergements:after{
+    top: 10%;
+    background: #0065FC;
+    
   }
   
   .booki {
@@ -154,7 +162,7 @@
   .zone {
     display: flex;
     align-items: center;
-    width: 70px;
+    
     height: 50px;
     margin-bottom: 2.188em;
     border-color: black;
@@ -934,12 +942,12 @@ align-self: stretch;
 
       .filterbar{
         display: grid;
-        
-        height:  140px;
+        margin-bottom: 5px;
+        height:  200px;
       }
 .filterbar .filtres{
     width: 752px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     text-align-last: center;
     font-size: 22px;
 }
@@ -948,24 +956,24 @@ align-self: stretch;
 flex-direction: column;
 justify-content: center;
 align-items: flex-start;
-gap: 20px;
+gap: 15px;
 align-self: stretch;
 width:430px;
-height: 90px;
+height: 110px;
       }
 
 
      .efrn .RN{
         margin-left:0px;
         width: 752px;
-        height: 70px;
+        height: 80px;
         justify-content: center;
         
       }
 
       .efrn .EF{
         width: 752px;
-        height: 70px;
+        height: 80px;
         justify-content: center;
 
       }
@@ -973,15 +981,15 @@ height: 90px;
       .EF .economique,
       .familial
       {
-        width: 180px;
-        height: 60px;
+        width: 140px;
+        height: 70px;
         justify-content: space-evenly;
         font-size: 17px;
       }
       
 .RN .romantique, .nospepites{
-    width: 180px;
-        height: 60px;
+    width: 140px;
+        height: 70px;
         justify-content: space-evenly;
         font-size:17px
 }
@@ -989,7 +997,7 @@ height: 90px;
 .logement{
 
     align-self: center;
-    margin-top: 30px;
+    
 }
 
 .logement .ville{
@@ -1005,7 +1013,7 @@ height: 90px;
 padding: 0px 20px;
 flex-direction: column;
 align-items: flex-start;
-gap: 35px;
+gap: 30px;
 align-self: stretch;
 
       }
@@ -1015,8 +1023,8 @@ align-self: stretch;
         flex-direction: column;
         align-items: center;
         width: 742px;
-        height: 100px;
-        margin-top: 27px;
+        height: 110px;
+        margin-top: 70px;
         
         
         
@@ -1030,6 +1038,7 @@ align-self: stretch;
       .infogroup .un{
         
         font-size: 25px;
+        height: 5px;
         
         
       }
@@ -1044,6 +1053,8 @@ font-size: 20px;
 flex-direction: column;
 align-items: center;
 align-self: stretch;
+width: 767px;
+height: 115px;
         
       }
 
@@ -1052,11 +1063,11 @@ align-self: stretch;
 
       .booki img{
         display: flex;
-        padding: 30px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-        width: 100px;
+padding: 30px;
+flex-direction: column;
+align-items: flex-start;
+
+width: 20%;
         
 
 
@@ -1064,6 +1075,7 @@ align-self: stretch;
       }
       .booki {
         width: 767px;
+        height: 60px;
     text-align: -webkit-center;
         
       }
@@ -1079,20 +1091,31 @@ align-self: stretch;
 
 .Hebergements{
 
-    width: 390px;
-    font-size: 20px;
-    color: var(--Blue, #0065fc);
-    display: flex;
-    place-content: center;
+    width: 385px;
+    color: var(--Blue, #0065FC);
+text-align: center;
+
+/* Nav/Standard */
+font-family: Raleway;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
     
     
     
 }
 .Activites{
-width: 388px;
-font-size: 20px;
-display: flex;
-place-content: center
+  width: 385px;
+  
+text-align: center;
+
+/* Nav/Standard */
+font-family: Raleway;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 
@@ -1102,7 +1125,7 @@ place-content: center
 
 .zone{
     width: 370px;
-    height: 50px;
+    height: 30px;
     display: flex;
     align-self: center;
     margin: 0px;
