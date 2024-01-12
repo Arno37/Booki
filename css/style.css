@@ -99,11 +99,11 @@
     max-height: 10px;
    
   }
-  .efrn {
+  .logos {
     display: flex;
   }
   
-  .RN{
+  .romantic_bestof{
       display: flex;
       flex-direction: row;
   height: 50px;
@@ -111,7 +111,7 @@
   margin-left: 15px;
   }
   
-  .EF{
+  .eco_family{
       display: flex;
       flex-direction: row;
   height: 50px;
@@ -125,7 +125,7 @@
       height: 49px;
       align-items: center;
       gap: 24px;
-      margin-bottom: 2.188em;
+      margin-bottom: 35px;
       
     }
 
@@ -162,7 +162,7 @@
     align-items: center;
     
     height: 50px;
-    margin-bottom: 2.188em;
+    margin-bottom: 35px;
     border-color: black;
     border-width: 2px;
     padding-left: 24px;
@@ -171,7 +171,7 @@
     
   }
   
-  .encart {
+  .search {
     color: var(--Black, #000);
     text-align: center;
     font-family: Raleway;
@@ -191,7 +191,7 @@
   
   }
   
-  .bouton {
+  .button {
     
     
     padding: 16px 16px;
@@ -205,11 +205,40 @@
     font-weight: bold;
     }
 
-    .loupe{
+    .magnifying_glass{
         display: none;
     }
 
-  .economique {
+    .familial:hover{
+      background: var(--Blue-Light, #DEEBFF);
+    }
+
+    .economic:hover{
+      background: var(--Blue-Light, #DEEBFF);
+    }
+
+    .romantic:hover{
+      background: var(--Blue-Light, #DEEBFF);
+    }
+
+    .bestof:hover{
+      background: var(--Blue-Light, #DEEBFF);
+    }
+
+  .economic {
+    font-weight: bold;
+    display: flex;
+    height: 36px;
+    padding: 4px 19px;
+    align-items: center;
+    gap: 15px;
+    border: 2px solid var(--grey-tint-2, #d9d9d9);
+    flex-direction: row-reverse;
+    border-radius: 30px;
+    
+  }
+  
+  .family {
     font-weight: bold;
     display: flex;
     height: 36px;
@@ -221,19 +250,7 @@
     border-radius: 30px;
   }
   
-  .familial {
-    font-weight: bold;
-    display: flex;
-    height: 36px;
-    padding: 4px 19px;
-    align-items: center;
-    gap: 15px;
-    border: 2px solid var(--grey-tint-2, #d9d9d9);
-    flex-direction: row-reverse;
-    border-radius: 30px;
-  }
-  
-  .romantique {
+  .romantic {
     font-weight: bold;
     display: flex;
     height: 36px;
@@ -246,7 +263,7 @@
     border-radius: 30px;
   }
   
-  .nospepites {
+  .bestof {
     font-weight: bold;
     display: flex;
     height: 36px;
@@ -261,7 +278,7 @@
   }
   
   
-  .filtres {
+  .filters {
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
@@ -277,7 +294,7 @@
     
   
   
-  .logement {
+  .appartments {
     margin-bottom: 2.188em;
     display: flex;
     gap: 10px;
@@ -285,7 +302,7 @@
     margin-top: 0.5em;
   }
   
-  .ville {
+  .city {
     color: #000;
     font-family: Raleway;
     font-size: 16px;
@@ -296,7 +313,7 @@
   
   
   
-  .un {
+  .one {
     font-family: Raleway;
     font-size: 25px;
     font-style: normal;
@@ -308,13 +325,13 @@
  
   }
   
-  .deux {
+  .two {
     font-family: Raleway;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-bottom: 2.188em;
+    margin-bottom: 35px;
   }
   
   /****** Hebergements And Populaires ***********/
@@ -403,7 +420,7 @@
   
   }
   
-  .premiers {
+  .first {
       
       display: flex;
       justify-content: space-between;
@@ -413,7 +430,7 @@
       
   }
   
-  .derniers {
+  .last {
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
@@ -422,7 +439,7 @@
       
   }
   
-  .afficher {
+  .advertise {
   
       color: #000;
   
@@ -465,7 +482,7 @@
   /******************************* ACTIVITES *****************************/
   
 
-    .activites {
+    .activities {
 
         margin-top: 65px;
         width: 1340px;
@@ -476,7 +493,7 @@
 
     }
 
-     .activitesamarseille .card {
+     .activities_marseille .card {
 
 
 
@@ -496,7 +513,7 @@ width: 297px;
 
      }
 
-     .activitesamarseille .card img {
+     .activities_marseille .card img {
         object-fit: cover;
     
         height: 380px;
@@ -506,7 +523,7 @@ width: 297px;
 
      
 
-     .activitesamarseille {
+     .activities_marseille {
 
         display: flex;
         justify-content: space-evenly;
@@ -517,13 +534,13 @@ width: 297px;
         
      }
       
-  .activites .section-title{
+  .activities .section-title{
       margin-top: 55px;
       padding-left: 30px;
       padding-bottom: 30px;
   }
  
-      .activitesamarseille .card-txt .card-title{
+      .activities_marseille .card-txt .card-title{
         padding-left: 19px;
 
       }
@@ -597,7 +614,7 @@ width: 297px;
   
   /******************************* FOOTER *****************************/
   
-  .A {
+  .about {
       background: var(--Grey, #F2F2F2);
       display: flex;
   align-items: flex-start;
@@ -803,7 +820,7 @@ margin-bottom: 30px;
        }
   
   
-      .A{
+      .about{
         width: 924px;
         height: 183px;
         margin-top: 35px;
@@ -829,7 +846,7 @@ margin-bottom: 30px;
         
         
   
-      .premiers {
+      .first{
        
         width:864px;
         height: 207px;
@@ -840,7 +857,7 @@ align-self: stretch;
   
       }
   
-      .derniers {
+    .last {
           
          
           width:864px;
@@ -853,11 +870,11 @@ align-self: stretch;
         
       }
 
-      .afficher {
+      .advertise {
         margin-top: 55px;
       }
   
-      .activites{
+      .activities{
 
         width: 924px;
         height: 330px;
@@ -866,7 +883,7 @@ align-self: stretch;
       }
 
 
-      .activitesamarseille .card img{
+      .activities_marseille .card img{
         height: 200px;
         width: 193px;
     
@@ -874,7 +891,7 @@ align-self: stretch;
 
       }
 
-      .activitesamarseille .card{
+      .activities_marseille .card{
         width: 185px;
     height: 270px;
     gap:0px;
@@ -882,12 +899,12 @@ align-self: stretch;
 
       }
 
-      .activitesamarseille {
+      .activities_marseille {
         display: flex;
         justify-content: space-evenly
       }
 
-      .A .apropos-cards, .noshebergements-cards, .assistance-cards{
+      .about .apropos-cards, .noshebergements-cards, .assistance-cards{
         align-items: center;
       }
       
@@ -934,6 +951,7 @@ align-self: stretch;
       .container{
       margin: 0%;
       max-width: 767px;
+      min-width: 320px;
       
     
       }
@@ -943,13 +961,13 @@ align-self: stretch;
         margin-bottom: 5px;
         height:  200px;
       }
-.filterbar .filtres{
+.filterbar .filters{
     width: 752px;
     margin-bottom: 15px;
     text-align-last: center;
     font-size: 22px;
 }
-      .filterbar .efrn{
+      .filterbar .logos{
         display: flex;
 flex-direction: column;
 justify-content: center;
@@ -961,7 +979,7 @@ height: 110px;
       }
 
 
-     .efrn .RN{
+     .logos .romantic_bestof{
         margin-left:0px;
         width: 752px;
         height: 80px;
@@ -969,15 +987,15 @@ height: 110px;
         
       }
 
-      .efrn .EF{
+      .logos .eco_family{
         width: 752px;
         height: 80px;
         justify-content: center;
 
       }
 
-      .EF .economique,
-      .familial
+      .eco_family .economic,
+      .family
       {
         width: 140px;
         height: 70px;
@@ -985,25 +1003,25 @@ height: 110px;
         font-size: 17px;
       }
       
-.RN .romantique, .nospepites{
+.romantic_bestof .romantic, .bestof{
     width: 140px;
         height: 70px;
         justify-content: space-evenly;
         font-size:17px
 }
 
-.logement{
+.appartments{
 
     align-self: center;
     
 }
 
-.logement .ville{
+.appartments .city{
 
     font-size: 20px;
     
 }
-      .haut{
+      .top{
         
         height: 530px;
        
@@ -1033,14 +1051,14 @@ align-self: stretch;
         text-align: center;
       }
       
-      .infogroup .un{
+      .infogroup .one{
         
         font-size: 25px;
         height: 5px;
         
         
       }
-.infogroup .deux {
+.infogroup .two {
 font-size: 20px;
 
     
@@ -1129,7 +1147,7 @@ line-height: normal;
     margin: 0px;
 }
       
-.haut .encart{
+.top .search{
 width: 210px;
     color: var(--Black, #000);
     text-align: center;
@@ -1145,11 +1163,11 @@ width: 210px;
     
 }
 
-.haut .bouton {
+.top .button {
     display: none;
 }
 
-.haut .loupe{
+.top .magnifying_glass{
 
     display: block;
     height: 50px;
@@ -1207,7 +1225,7 @@ f
                 justify-content: center;
           }
         
-            .premiers {
+            .first {
             display: grid;
             height: 1240px;
             width: 752px;
@@ -1218,7 +1236,7 @@ f
         
             }
         
-            .derniers {
+            .last {
                 display: grid;
                 height: 1240px;
                 gap:15px;
@@ -1227,19 +1245,19 @@ f
               
             }
 
-            .premiers .card{
+            .first .card{
                 width: 690px;
                 height: 380px;
                
             }
 
-            .derniers .card{
+            .last .card{
                 width: 690px;
                 height: 380px;
                 
             }
 
-            .afficher{
+            .advertise{
                 
                 font-size: 28px;
                 display: flex;
@@ -1249,7 +1267,7 @@ f
                 margin-top: 0px
             }
             
-    .premiers .card-subtitle{
+    .first .card-subtitle{
         text-align: center;
 
     }
@@ -1340,7 +1358,7 @@ f
 
     
 
-.activites {
+.activities {
     width: 767px;
     height: 1715px;
     margin-top: 10px;
@@ -1348,38 +1366,38 @@ f
     
 }
 
-.activitesamarseille{
+.activities_marseille{
 
 display: grid;
 gap:20px;
 
 }
 
-.activites .titre2{
+.activities .title_2{
     font-size: 32px;
     display: flex;
     justify-content: center; 
     margin-top:30px;
 }
 
-.activitesamarseille .card{
+.activities_marseille .card{
     width: 690px;
     height: 380px;
     
     
 }
 
-.activitesamarseille .card img {
+.activities_marseille .card img {
     width: 690px;
     height: 300px;
 }
-.activitesamarseille .card-content{
+.activities_marseille .card-content{
 height: 60px;
 
     
 }
 
-.activitesamarseille .card-title {
+.activities_marseille .card-title {
     font-size: 26px;
     display: flex;
     justify-content: center;
@@ -1397,7 +1415,7 @@ flex-direction: column
 }
    
   
-      .ANA {
+      .about {
           width: 364px;
           height: 430px;
           margin-top: 35px;
@@ -1406,7 +1424,7 @@ flex-direction: column
           
       }
 
-      .A{
+      .about{
         width: 730px;
         height: 455px;
         display:grid;
