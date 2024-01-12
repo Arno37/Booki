@@ -628,7 +628,7 @@ width: 297px;
 
   
   }
-  .apropos-cards {
+  .about-cards {
    
   font-size: 18px;
   display: flex;
@@ -904,7 +904,7 @@ align-self: stretch;
         justify-content: space-evenly
       }
 
-      .about .apropos-cards, .noshebergements-cards, .assistance-cards{
+      .about .about-cards, .noshebergements-cards, .assistance-cards{
         align-items: center;
       }
       
