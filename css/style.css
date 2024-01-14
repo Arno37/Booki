@@ -132,7 +132,7 @@
 
  
   
-  .Hebergements {
+  .accomodations_menu {
     color: var(--Blue, #0065fc);
     
   }
@@ -205,14 +205,14 @@
         display: none;
     }
 
-    .familial:hover{
+    
+      .economic:hover{
       background: var(--Blue-Light, #DEEBFF);
     }
+.family:hover{
+  background: var(--Blue-Light, #DEEBFF);
 
-    .economic:hover{
-      background: var(--Blue-Light, #DEEBFF);
-    }
-
+}
     .romantic:hover{
       background: var(--Blue-Light, #DEEBFF);
     }
@@ -220,6 +220,10 @@
     .bestof:hover{
       background: var(--Blue-Light, #DEEBFF);
     }
+
+    
+
+   
 
   .economic {
     font-weight: bold;
@@ -1103,7 +1107,17 @@ width: 20%;
         padding-top: 60px;
       }
 
-.Hebergements{
+      .activities_menu {
+        width: 385px;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+.accomodations_menu{
 
     width: 385px;
     color: var(--Blue, #0065FC);
@@ -1406,7 +1420,6 @@ height: 60px;
 
 .photos {
 width: 100%;
-  
 align-self: stretch;
 display: flex;
 flex-direction: column
@@ -1420,14 +1433,12 @@ flex-direction: column
           height: 430px;
           margin-top: 35px;
           
-
-          
       }
 
       .about{
         width: 730px;
-        height: 455px;
-        display:grid;
+        height: 180px;
+
         text-align-last: center;
       }
 
@@ -1446,7 +1457,8 @@ flex-direction: column
         height: 130px;
       }
 
-
-
+.about-cards .card-content ul{
+  list-style-type: none
+}
 
 }
