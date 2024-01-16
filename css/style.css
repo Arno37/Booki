@@ -682,7 +682,6 @@ ul {
   .container {
 
     width: 1024px;
-
     margin-left: 50px;
     margin-right: 50px;
 
@@ -1432,6 +1431,7 @@ ul {
     width: 767px;
     height: 180px;
     text-align-last: center;
+    display: inline-table;
   }
 
   .advertise {
