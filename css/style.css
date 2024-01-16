@@ -1094,7 +1094,7 @@ ul {
   .booki {
     width: 767px;
     height: 60px;
-    text-align: -webkit-center;
+    display: contents;
     padding-left: 30px;
 
   }
@@ -1105,7 +1105,7 @@ ul {
     margin-left: 70px;
     width: 767px;
     display: flex;
-    padding-top: 60px;
+    padding-top: 20px;
   }
 
   .activities-menu {
