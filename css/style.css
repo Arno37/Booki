@@ -90,6 +90,7 @@ a {
   justify-content: flex-end;
   list-style: none;
   max-height: 10px;
+  margin-top:10px
 
 }
 
@@ -682,6 +683,7 @@ ul {
     width: 244px;
     align-items: flex-end;
     margin-right: 50px;
+    margin-top:10px
 
 
   }
@@ -872,7 +874,7 @@ ul {
 
     font-size: 16px;
     line-height: 25px;
-    align-items: center;
+    
   }
 
   ul {
