@@ -22,16 +22,16 @@ body {
 
 
 
-  margin: auto;
+  
 
 
 }
-
 .container {
 
+  margin:auto;
   margin-left: 50px;
   margin-right: 50px;
-  margin-bottom: 58px;
+  
 
 }
 
@@ -288,8 +288,6 @@ a {
 
 
 
-
-
 .appartments {
   margin-bottom: 35px;
   display: flex;
@@ -361,7 +359,6 @@ a {
 
   width: 871px;
   height: 614px;
-  ;
 
 
 
@@ -489,12 +486,8 @@ a {
 
 .activities-marseille .card {
 
-
-
   display: flex;
   flex-direction: column;
-
-
   height: 100%;
   width: 297px;
 
@@ -505,7 +498,6 @@ a {
 
 .activities-marseille .card img {
   object-fit: cover;
-
   height: 380px;
   width: 297px;
   border-radius: 20px 20px 0px 0px;
@@ -591,13 +583,6 @@ a {
 
 
 
-.photos {
-
-  width: 22.6%;
-  height: 25%;
-
-}
-
 .title2 {
   margin-left: 30px;
 }
@@ -650,8 +635,6 @@ ul {
 
 
 
-
-
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /********************* Media queries *************************/
@@ -662,8 +645,6 @@ ul {
   .hebergements-and-populaires {
     flex-direction: column;
     width: 100%;
-
-
 
   }
 
@@ -681,9 +662,9 @@ ul {
 
   .container {
 
-    width: 1024px;
-    margin-left: 50px;
-    margin-right: 50px;
+    max-width: 1024px;
+    margin-left: 40px;
+    margin-right: 0px;
 
   }
 
@@ -699,7 +680,7 @@ ul {
     height: 35px;
     width: 244px;
     align-items: flex-end;
-    margin-right: 100px;
+    margin-right: 50px;
 
 
   }
@@ -914,11 +895,8 @@ ul {
 
   .container {
 
-    max-width: 767px;
-    min-width: 320px;
-    margin-right: 0%;
-    margin-left: 0%;
-    margin-bottom: 0%;
+    margin:auto;
+    margin-top: 0%;
 
 
   }
@@ -1083,10 +1061,7 @@ ul {
     padding: 30px;
     flex-direction: column;
     align-items: flex-start;
-
     width: 20%;
-
-
 
 
   }
@@ -1135,21 +1110,6 @@ ul {
   }
 
 
-
-  .Activites {
-    width: 385px;
-
-    text-align: center;
-
-    /* Nav/Standard */
-    font-family: Raleway;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
-
-
   .zone .fa-solid {
     font-size: 30px;
   }
@@ -1187,7 +1147,6 @@ ul {
     display: block;
     height: 50px;
 
-
   }
 
 
@@ -1222,7 +1181,6 @@ ul {
 
     background: none;
     text-decoration: none;
-    /* padding: 0 0 7px 0; */
     border-bottom: #0065FC solid 2px;
     border-top: none;
 
@@ -1251,7 +1209,6 @@ ul {
     display: grid;
     height: 1240px;
     width: 752px;
-
     gap: 15px;
 
 
@@ -1334,9 +1291,6 @@ ul {
     height: 200px;
     margin-top: 1px;
 
-
-
-
   }
 
   .populaires-cards img {
@@ -1355,8 +1309,6 @@ ul {
 
   .populaires-cards {
     display: grid;
-
-
 
   }
 
