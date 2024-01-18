@@ -20,18 +20,17 @@
 
 body {
 
-
-
   
 
 
 }
+
 .container {
 
-  margin:auto;
+  max-width: 1440px;
   margin-left: 50px;
-  margin-right: 50px;
   
+
 
 }
 
@@ -90,8 +89,7 @@ a {
   justify-content: flex-end;
   list-style: none;
   max-height: 10px;
-  margin-top:10px
-
+  margin-top: 10px
 }
 
 .logos {
@@ -125,18 +123,24 @@ a {
 }
 
 
-
-
-.accomodations-menu {
-  color: var(--Blue, #0065fc);
-
-}
-
-
 .menu li:hover {
+
+  background: none;
+  text-decoration: none;
   border-top: #0065FC solid 2px;
-  padding-top: 5px;
+  
+
 }
+
+
+.menu{
+  padding-top: 1px;
+}
+
+.accomodations-menu{
+  color: #0065fc;
+}
+
 
 .booki {
   align-self: center;
@@ -223,6 +227,7 @@ a {
 
 
 .economic {
+  flex-direction: row-reverse;
   font-weight: bold;
   display: flex;
   height: 36px;
@@ -230,7 +235,6 @@ a {
   align-items: center;
   gap: 15px;
   border: 2px solid var(--grey-tint-2, #d9d9d9);
-  flex-direction: row-reverse;
   border-radius: 30px;
 
 }
@@ -481,7 +485,13 @@ a {
   height: 559px;
   margin-right: 30px;
 
+}
 
+.activities-marseille {
+
+  display: flex;
+  justify-content: space-evenly;
+  height: 439px;
 
 }
 
@@ -492,9 +502,6 @@ a {
   height: 100%;
   width: 297px;
 
-
-
-
 }
 
 .activities-marseille .card img {
@@ -502,19 +509,6 @@ a {
   height: 380px;
   width: 297px;
   border-radius: 20px 20px 0px 0px;
-}
-
-
-
-.activities-marseille {
-
-  display: flex;
-  justify-content: space-evenly;
-  height: 439px;
-
-
-
-
 }
 
 .activities .section-title {
@@ -623,8 +617,6 @@ a {
 }
 
 
-
-
 ul {
   list-style-type: none
 }
@@ -664,7 +656,7 @@ ul {
   .container {
 
     max-width: 1024px;
-    margin-left: 42px;
+  
     margin-right: 0px;
     margin-bottom: 0px;
 
@@ -683,9 +675,7 @@ ul {
     width: 244px;
     align-items: flex-end;
     margin-right: 50px;
-    margin-top:10px
-
-
+    margin-top: 10px
   }
 
 
@@ -842,7 +832,6 @@ ul {
     width: 924px;
     height: 330px;
 
-
   }
 
 
@@ -850,15 +839,12 @@ ul {
     height: 200px;
     width: 193px;
 
-
-
   }
 
   .activities-marseille .card {
     width: 185px;
     height: 270px;
     gap: 0px;
-
 
   }
 
@@ -874,7 +860,7 @@ ul {
 
     font-size: 16px;
     line-height: 25px;
-    
+
   }
 
   ul {
@@ -889,7 +875,10 @@ ul {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
   /* ... */
+  .fa-solid .fa-chart-line {
 
+    width: 200%
+  }
   .fa-solid {
     color: var(--main-color);
     font-size: 30px;
@@ -897,9 +886,9 @@ ul {
 
   .container {
 
-    margin:auto;
+    
     margin-top: 0%;
-
+    margin-left: 0;
 
   }
 
@@ -934,13 +923,6 @@ ul {
     height: 200px;
   }
 
-  .filterbar .filters {
-    width: 752px;
-    margin-bottom: 15px;
-    text-align-last: center;
-    font-size: 22px;
-  }
-
   .filterbar .logos {
     display: flex;
     flex-direction: column;
@@ -951,6 +933,15 @@ ul {
     width: 430px;
     height: 110px;
   }
+
+
+  .filterbar .filters {
+    width: 752px;
+    margin-bottom: 15px;
+    text-align-last: center;
+    font-size: 22px;
+  }
+
 
 
   .logos .romantic-best_of {
@@ -1322,10 +1313,6 @@ ul {
     justify-content: center;
   }
 
-  .fa-solid .fa-chart-line {
-
-    width: 200%
-  }
 
   .title2 {
     font-size: 32px;
@@ -1379,14 +1366,22 @@ ul {
     padding-right: 19px;
   }
 
+  
 
 
-  .framed {
-    width: 767px;
-    height: 180px;
+.framed{
+  width: 767px;
+    height: 320px;
     text-align-last: center;
     display: inline-table;
-  }
+    display: flex;
+    flex-direction: column;
+}
+
+.framed .about-cards,.our_hebergements-cards,.assistance-cards{
+  align-self: center;
+ 
+}
 
   .advertise {
     font-size: 22px;
@@ -1395,24 +1390,27 @@ ul {
 
   }
 
-  .apropos-cards .card-content {
-    width: 230px;
-    height: 140px;
+  .about-cards .card-content {
+    width: 210px;
+    height: 80px;
+    
   }
 
-  .noshebergements-cards .card-content {
-    width: 200px;
-    height: 110px;
+  .our_hebergements-cards .card-content {
+    width: 210px;
+    height: 80px;
+    margin-top: 25px;
 
   }
 
   .assistance-cards .card-content {
-    width: 200px;
-    height: 130px;
+    width: 210px;
+    height: 80px;
+    margin-top: 0px;
   }
 
   ul {
-    list-style-type: none
+    list-style-type: none;
   }
 
   .card-content .bold {
