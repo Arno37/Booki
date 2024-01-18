@@ -19,23 +19,14 @@
   }
   
   body {
-  
-  
-  
     margin: auto;
-  
-  
   }
   
   .container {
-  
     margin-left: 50px;
     margin-right: 50px;
-    margin-bottom: 58px;
-  
+    margin-bottom: 0%;
   }
-  
-  
   
   a {
     color: inherit;
@@ -60,10 +51,14 @@
   
   .card-title {
     font-size: 16px;
-  }
+    padding-left: 15px;
+      }
+  
   
   .euro {
     font-weight: 700;
+
+
   }
   
   .neutral-star {
@@ -80,7 +75,6 @@
     display: flex;
     justify-content: space-between;
     height: 79px;
-  
   }
   
   .menu {
@@ -90,7 +84,6 @@
     justify-content: flex-end;
     list-style: none;
     max-height: 10px;
-  
   }
   
   .logos {
@@ -99,7 +92,6 @@
   
   .romantic-best_of {
     display: flex;
-    flex-direction: row;
     height: 50px;
     gap: 15px;
     margin-left: 15px;
@@ -107,7 +99,6 @@
   
   .eco-family {
     display: flex;
-    flex-direction: row;
     height: 50px;
     gap: 15px;
   
@@ -120,17 +111,11 @@
     align-items: center;
     gap: 24px;
     margin-bottom: 35px;
-  
   }
-  
-  
-  
-  
+
   .accomodations-menu {
     color: var(--Blue, #0065fc);
-  
   }
-  
   
   .menu li:hover {
     border-top: #0065FC solid 2px;
@@ -141,24 +126,13 @@
     align-self: center;
     width: 61px;
     height: 19px;
-  
-  
-  
-  
   }
   
   .zone {
-    display: flex;
-    align-items: center;
-  
-    height: 50px;
+   
     margin-bottom: 35px;
-    border-color: black;
-    border-width: 2px;
-    padding-left: 24px;
-  
-  
-  
+    
+   
   }
   
   .search {
@@ -176,6 +150,7 @@
     margin-left: 30px;
     padding-left: 24px;
     padding-right: 24px;
+    background-color: white;
   
   
   
@@ -423,6 +398,15 @@
   
   
   }
+
+  .first .card-content{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+align-self: stretch;
+
+  }
   
   .last {
     display: flex;
@@ -432,6 +416,8 @@
   
   
   }
+
+
   
   .advertise {
   
@@ -452,14 +438,15 @@
   
     font-size: 14px;
     padding-left: 15px;
+    height: 3px;
   
   
   }
   
   .hebergements-cards .card-rating {
   
-    margin-bottom: 10px;
     padding-left: 15px;
+    padding-top: 8px;
   
   }
   
@@ -469,6 +456,7 @@
   
     padding-left: 15px;
     font-size: 16px;
+    height: 15px;
   
   
   }
@@ -523,6 +511,7 @@
   
   
   }
+
   
   .activities .section-title {
     margin-top: 55px;
@@ -540,7 +529,7 @@
   /******************************* Populaires *****************************/
   
   .populaires {
-    width: 432px;
+    
     height: 614px;
     margin-left: 30px;
   
@@ -563,8 +552,8 @@
   }
   
   .populaires-cards img {
-    width: 33%;
-    height: 136px;
+    width: 30%;
+    
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
   
@@ -572,7 +561,7 @@
   
   
   .populaires-cards .card-content {
-    width: 60%;
+    width: 62%;
     padding-left: 15px;
     display: flex;
     flex-direction: column;
@@ -583,6 +572,7 @@
   .populaires-cards .card-title {
     margin-top: 10px;
     margin-bottom: 4px;
+    padding-left: 0px;
   }
   
   .populaires-cards .card-subtitle {
@@ -682,9 +672,9 @@
     .container {
   
       width: 1024px;
-  
-      margin-left: 50px;
+    margin-left: 50px;
       margin-right: 50px;
+      margin-bottom: 0%;
   
     }
   
@@ -863,10 +853,12 @@
   
     }
   
-  
+  .card-title{
+    padding-left: 15px;
+  }
     .activities-marseille .card img {
       height: 200px;
-      width: 193px;
+      width: 185px;
   
   
   
@@ -876,6 +868,7 @@
       width: 185px;
       height: 270px;
       gap: 0px;
+      padding: 0px;
   
   
     }
@@ -916,7 +909,6 @@
     .container {
   
       max-width: 767px;
-      min-width: 320px;
       margin-right: 0%;
       margin-left: 0%;
       margin-bottom: 0%;
@@ -1162,8 +1154,11 @@
       align-self: center;
       margin: 0px;
     }
+    .marseille_france{
+        width: 200px
+    }
   
-    .top .search {
+    .top .marseille_france {
       width: 210px;
       color: var(--Black, #000);
       text-align: center;
