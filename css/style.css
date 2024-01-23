@@ -973,8 +973,12 @@ ul {
 @media (max-width: 767.98px) {
     /* ... */
 
+    .hebergements-and-populaires section {
+padding:20px;
+    }
+
     .fa-solid {
-        color: var(--main-color);
+       
         
     }
 
@@ -992,11 +996,8 @@ ul {
         display: flex;
         flex-direction: column-reverse;
         max-width: 365px;
-        padding: 3px 20px;
-
-
         gap: 15px;
-        align-self: stretch;
+        margin-bottom: 55px;
 
 
     }
@@ -1005,10 +1006,10 @@ ul {
 
 
     .populaires {
-        width: 395px;
-        height: 605px;
-
+        width: 103%;
+        height: 594px;
         display: flex;
+        
 
 
 
@@ -1024,7 +1025,8 @@ ul {
         align-self: stretch;
         width: 375px;
         height: 77px;
-        margin-top: 7px;
+        
+        
     }
 
     .filterbar .filters {
@@ -1049,7 +1051,7 @@ ul {
 
 
     .logos .romantic-best_of {
-        margin-left: 3.8px;
+        margin-left: 0;
         width: 335px;
         height: 67px;
         justify-content: center;
@@ -1069,24 +1071,23 @@ ul {
     .family {
         width: 125px;
         height: 42px;
-        justify-content: space-evenly;
+        justify-content: flex-end;
         font-size: 14px;
-        gap: 10px;
     }
 
     .romantic-best_of .romantic,
     .best_of {
         width: 125px;
         height: 42px;
-        justify-content: center;
+        justify-content: flex-end;
         font-size: 14px;
-        gap: 10px;
+      
     }
 
     .appartments {
 
         align-self: center;
-        padding-right: 15px;
+        padding-right: 6px;
 
     }
 
@@ -1129,7 +1130,7 @@ ul {
     .magnifying_glass img {
         width: 50px;
         padding-top: 2.8px;
-        padding-right: 20px;
+        
     }
 
 
@@ -1174,7 +1175,6 @@ ul {
         height: 146px;
         display: flex;
         flex-direction: column;
-        align-items: center;
         gap: 15px;
         align-self: stretch;
     }
@@ -1265,8 +1265,10 @@ ul {
         font-size: 30px;
     }
 
+    
+
     .zone {
-        width: 335px;
+        width: 5px;
         height: 49px;
         display: flex;
         align-self: stretch;
@@ -1280,6 +1282,8 @@ ul {
     .france {
         justify-content: flex-start;
         padding-left: 24px;
+border: 1px solid var(--Grey, #F2F2F2);
+
     }
 
     .mf {
@@ -1323,6 +1327,7 @@ ul {
         width: 335px;
         height: 26px;
         font-weight: 700;
+        padding-bottom: 10px;
 
 
     }
@@ -1340,8 +1345,9 @@ ul {
 
     .hebergements {
         width: 395px;
-        height: 2500px;
+        height: 1540px;
         margin-top: 20px;
+        
     }
 
 
@@ -1362,8 +1368,8 @@ ul {
 
 
     .hebergements-cards img {
-        width: 335px;
-        height: 124px;
+        width: 343px;
+        height: 116px;
         border-radius: 20px 20px 0px 0px;
 
     }
@@ -1371,39 +1377,43 @@ ul {
     .hebergements-cards .card-rating {
         font-size: 20px;
         display: flex;
-        justify-content: center;
+        
         
     }
 
     .first {
-        display: grid;
-        height: 1240px;
-        width: 752px;
-
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
         gap: 15px;
+        width: 375px;
+        margin-bottom: 0;
+        margin-top: 3px;
 
 
 
     }
 
     .last {
-        display: grid;
-        height: 1240px;
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
         gap: 15px;
-        width: 700px;
-
+        width: 375px;
+        margin-top: 0;
+margin-bottom: 0;
 
     }
 
     .first .card {
-        width: 335px;
-        height: 207.25px;
+        width: 343px;
+        height: 200px;
 
     }
 
     .last .card {
-        width: 690px;
-        height: 380px;
+        width: 345px;
+        height: 200px;
 
     }
 
@@ -1428,7 +1438,7 @@ ul {
        display: flex;
 width: 223.333px;
 padding: 10px 5px 5px 15px;
-flex-direction: column;
+flex-direction: column;pwdpwd
 align-items: flex-start;
 gap: 24px;
 align-self: stretch;
@@ -1440,13 +1450,14 @@ align-self: stretch;
 
         gap: 20px;
         padding-bottom: 15px;
-        text-align-last: start;
+        text-align-last: left;
+        padding-right: 3px;
     }
 
     .populaires .section-title {
 
-        font-size: 22px;
-
+        font-size: 23px;
+        
     }
 
 
@@ -1460,16 +1471,17 @@ align-self: stretch;
     }
 
     .populaires-cards .card-subtitle {
-        font-size: 14px;
+        font-size: 15px;
         font-weight: 400px;
         
     }
 
 
     .populaires-cards .card {
-        width: 335px;
+        width: 325px;
         height: 146px;
         margin-top: 1px;
+        
 
 
 
@@ -1477,7 +1489,7 @@ align-self: stretch;
     }
 
     .populaires-cards img {
-        width: 111.6px;
+        width: 117px;
         height: 146px;
     }
 
@@ -1507,7 +1519,7 @@ align-self: stretch;
 }
 
     .hebergements-cards .card-title {
-        font-size: 16px;
+        font-size: 17px;
         display: flex;
         
         
@@ -1519,22 +1531,26 @@ align-self: stretch;
     }
 
     .title2 {
-        font-size: 32px;
-        text-align-last: center;
+        font-size: 24px;
+        width: 315px;
+        height: 30px;
+        
     }
 
     .activities {
-        width: 767px;
-        height: 1715px;
-        margin-top: 10px;
+        width: 375px;
+        height: 1000px;
+        
 
 
     }
 
     .activities-marseille {
-
-        display: grid;
-        gap: 20px;
+width: 375px;
+height: 750px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
 
     }
 
@@ -1546,25 +1562,27 @@ align-self: stretch;
     }
 
     .activities-marseille .card {
-        width: 690px;
-        height: 380px;
+        width: 315px;
+        height: 200px;
 
 
     }
 
     .activities-marseille .card img {
-        width: 690px;
-        height: 300px;
+        width: 350px;
+        height: 163px;
     }
 
     .activities-marseille .card-content {
-        height: 60px;
+        width: 350px;
+        height: 59px;
+    }
 
 
     }
 
     .activities-marseille .card-title {
-        font-size: 26px;
+        
         display: flex;
         justify-content: center;
         padding-right: 19px;
@@ -1573,16 +1591,21 @@ align-self: stretch;
 
 
     .framed {
-        width: 767px;
+      display: flex;
+      flex-direction: column;
         height: 180px;
         text-align-last: center;
+        width: 375px;
+        height: 440px;
     }
 
     .advertise {
-        font-size: 22px;
-        font-weight: bold;
-        text-align-last: center;
-
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0;
+        width: 335px;
+        height: 21px;
+padding-left: 3px;
     }
 
     .apropos-cards .card-content {
