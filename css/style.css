@@ -33,6 +33,14 @@ a {
     text-decoration: none;
 }
 
+.activities-menu img{
+    display: none;
+}
+
+.accomodations-menu img{
+    display: none;
+}
+
 .section-title {
     margin: 0px;
     font-size: 22px;
@@ -752,7 +760,10 @@ ul {
 
 
 
+    }
 
+    .activities-menu img{
+        display: none;
     }
 
 
@@ -952,8 +963,15 @@ ul {
 
         font-size: 16px;
         line-height: 25px;
+        height: 160px;
 
     }
+
+    
+    .framed .our_hebergements-cards{
+height: 25%;
+    }
+
 
     .activities-marseille .card-content {
         height: 70px;
@@ -973,13 +991,25 @@ ul {
 @media (max-width: 767.98px) {
     /* ... */
 
+    .fa-solid.fa-star.neutral-star {
+        color: gainsboro; 
+    }
+.fa-solid.fa-chart-line{
+    font-size: 20px;
+}
     .hebergements-and-populaires section {
 padding:20px;
+margin-left: 3px;
     }
 
-    .fa-solid {
-       
+    .activities-menu img {
         
+        height: 2px;
+flex: 1 0 0;
+    }
+
+    .accomodations-menu img {
+
     }
 
     .container {
@@ -1190,6 +1220,7 @@ padding:20px;
         height: 19px;
         display: flex;
         padding: 30px;
+        padding-top: 25px;
         flex-direction: column;
         align-items: flex-start;
         gap: 10px;
@@ -1216,7 +1247,11 @@ padding:20px;
     }
 
 
-    .menu {}
+.topbar .menu{
+    padding:0;
+    gap:68px;
+    
+}
 
 
     .activities-menu {
@@ -1322,12 +1357,12 @@ border: 1px solid var(--Grey, #F2F2F2);
 
     .hebergements .section-title {
 
-        font-size: 24px;
+        font-size: 22px;
         display: flex;
         width: 335px;
         height: 26px;
         font-weight: 700;
-        padding-bottom: 10px;
+        padding-bottom: 15px;
 
 
     }
@@ -1344,33 +1379,65 @@ border: 1px solid var(--Grey, #F2F2F2);
 
 
     .hebergements {
-        width: 395px;
-        height: 1540px;
+        width: 375px;
+        height: 1510px;
         margin-top: 20px;
+        
+        
         
     }
 
+    .hebergements-and-populaires .hebergements{
+        background: none;
+    }
 
-    .menu li:hover {
+
+    .accomodations-menu img:hover {
 
         background: none;
         text-decoration: none;
-        /* padding: 0 0 7px 0; */
+       
         border-bottom: #0065FC solid 2px;
         border-top: none;
 
     }
 
+    .activities-menu {
+        position: relative;
+        display: list-item;
+    }
+    
+    .activities-menu img {
+        display: block;
+        margin-top: 5px; /* Ajoutez un espace entre le texte et l'image si nécessaire */
+    }
+
     .menu .activities-menu {
         border-top: none;
         border-bottom: none;
+        width: 100%;
+    }
+
+    .menu .accomodations-menu{
+        
+            border-top: none;
+            border-bottom: none;
+            width: 100%;
+    
     }
 
 
+    .hebergements.hebergements-cards{
+        box-shadow: 0px 3px 15px 0px rgb(248, 245, 245);
+    
+    
+    }
+
     .hebergements-cards img {
-        width: 343px;
+        width: 335px;
         height: 116px;
         border-radius: 20px 20px 0px 0px;
+        
 
     }
 
@@ -1389,7 +1456,7 @@ border: 1px solid var(--Grey, #F2F2F2);
         width: 375px;
         margin-bottom: 0;
         margin-top: 3px;
-
+padding: 0;
 
 
     }
@@ -1402,17 +1469,22 @@ border: 1px solid var(--Grey, #F2F2F2);
         width: 375px;
         margin-top: 0;
 margin-bottom: 0;
+padding: 0;
 
     }
 
+    .card{
+        box-shadow: none;
+    }
+
     .first .card {
-        width: 343px;
+        width: 335px;
         height: 200px;
 
     }
 
     .last .card {
-        width: 345px;
+        width: 335px;
         height: 200px;
 
     }
@@ -1430,6 +1502,10 @@ margin-bottom: 0;
     .first .card-content{
         width: 335px;
         height: 64.25px;
+    }
+
+    .hebergements-and-populaires .populaires{
+        border-radius: 0;
     }
 
     .populaires-cards .card-content {
@@ -1456,7 +1532,7 @@ align-self: stretch;
 
     .populaires .section-title {
 
-        font-size: 23px;
+        font-size: 22px;
         
     }
 
@@ -1531,15 +1607,19 @@ align-self: stretch;
     }
 
     .title2 {
-        font-size: 24px;
+        font-size: 23px;
         width: 315px;
         height: 30px;
+        margin-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 10px;
         
     }
 
     .activities {
         width: 375px;
-        height: 1000px;
+        height: 990px;
+        margin-left: 15px;
         
 
 
@@ -1547,10 +1627,11 @@ align-self: stretch;
 
     .activities-marseille {
 width: 375px;
-height: 750px;
+height: 825px;
         display: flex;
         flex-direction: column;
-        margin-top: 30px;
+        margin: 20px;
+        
 
     }
 
@@ -1562,24 +1643,25 @@ height: 750px;
     }
 
     .activities-marseille .card {
-        width: 315px;
-        height: 200px;
+        width: 327px;
+        
+       
 
 
     }
 
     .activities-marseille .card img {
-        width: 350px;
-        height: 163px;
+        width: 323px;
+        height: 145px;
     }
 
     .activities-marseille .card-content {
-        width: 350px;
-        height: 59px;
+        width: 323px;
+        height: 65px;
     }
 
 
-    }
+    
 
     .activities-marseille .card-title {
         
@@ -1590,38 +1672,49 @@ height: 750px;
 
 
 
-    .framed {
-      display: flex;
-      flex-direction: column;
-        height: 180px;
-        text-align-last: center;
-        width: 375px;
-        height: 440px;
-    }
+    
 
     .advertise {
-        font-size: 18px;
+        font-size: 19px;
         font-weight: 700;
         margin: 0;
         width: 335px;
         height: 21px;
-padding-left: 3px;
+margin:0
     }
 
+    .framed{
+width: 375px;
+height: 480px;
+        display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+align-self: stretch;
+
+
+    }
+
+    .framed .about-cards{
+        padding-top: 10px;
+    }
     .apropos-cards .card-content {
         width: 230px;
         height: 140px;
     }
 
-    .noshebergements-cards .card-content {
+    .our_hebergements-cards .card-content {
         width: 200px;
         height: 110px;
 
     }
 
+ 
+
     .assistance-cards .card-content {
         width: 200px;
         height: 130px;
+        
     }
 
     ul {
@@ -1630,6 +1723,11 @@ padding-left: 3px;
 
     .card-content .bold {
         font-weight: bold;
+        font-size: 18px;
+    }
+
+    .card-text{
+        gap:10px
     }
 
 }
