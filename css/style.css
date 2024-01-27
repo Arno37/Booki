@@ -824,7 +824,8 @@ ul {
 
     .hebergements-and-populaires section {
         padding: 20px;
-        margin-left: 3px;
+        
+        width: auto;
     }
 
     .hebergements-and-populaires {
@@ -834,18 +835,19 @@ ul {
     .container {
         margin: auto;
         
+        
     }
-
     .hebergements-and-populaires {
         display: flex;
         flex-direction: column-reverse;
-        max-width: 365px;
+        width: 100%;
         gap: 15px;
         margin-bottom: 55px;
     }
+   
 
     .populaires {
-        width: 103%;
+        width: 100%;
         height: 594px;
         display: flex;
     }
@@ -857,12 +859,12 @@ ul {
         align-items: flex-start;
         gap: 20px;
         align-self: stretch;
-        width: 375px;
+        width: 100%;
         height: 77px;
     }
 
     .filterbar .filters {
-        width: 54px;
+        width: 100%;
         height: 21px;
         font-size: 18px;
         font-weight: 700;
@@ -875,20 +877,20 @@ ul {
         align-items: flex-start;
         gap: 20px;
         align-self: stretch;
-        width: 430px;
+        width: 91%;
         height: 110px;
     }
 
     .logos .romantic-best_of {
         margin-left: 0;
-        width: 335px;
+        width: 99%;
         height: 67px;
         justify-content: center;
         gap: 10px;
     }
 
     .logos .eco-family {
-        width: 335px;
+        width: 99%;
         height: 67px;
         justify-content: center;
         gap: 10px;
@@ -896,7 +898,7 @@ ul {
 
     .eco-family .economic,
     .family {
-        width: 125px;
+        width: 99%;
         height: 42px;
         justify-content: flex-end;
         font-size: 14px;
@@ -904,7 +906,7 @@ ul {
 
     .romantic-best_of .romantic,
     .best_of {
-        width: 125px;
+        width: 99%;
         height: 42px;
         justify-content: flex-end;
         font-size: 14px;
@@ -914,6 +916,7 @@ ul {
 
         align-self: center;
         padding-right: 6px;
+        width: 98%;
     }
 
     .appartments .city {
@@ -921,10 +924,10 @@ ul {
     }
 
     .top {
-        width: 375px;
+        width: 100%;
         height: 460px;
         display: flex;
-        padding: 0px 27px;
+        padding: 0px 20px;
         flex-direction: column;
         align-items: flex-start;
         gap: 35px;
@@ -937,6 +940,7 @@ ul {
         align-items: center;
         height: 4128px;
         margin-top: 5px;
+        width:92%;
     }
 
     .searching-word {
@@ -962,14 +966,14 @@ ul {
         align-self: stretch;
         font-size: 22px;
         align-self: stretch;
-        width: 335px;
+        width: 100%;
         height: 52px;
     }
 
     .infogroup .two {
         font-size: 16px;
         margin: 0px;
-        width: 335px;
+        width: 100%;
         height: 19px;
     }
 
@@ -978,12 +982,12 @@ ul {
         flex-direction: column;
         align-items: center;
         align-self: stretch;
-        width: 375px;
+        width: 100%;
         height: 105px;
     }
 
     a {
-        width: 375px;
+        width: 100%;
         height: 146px;
         display: flex;
         flex-direction: column;
@@ -1017,6 +1021,7 @@ ul {
         align-items: stretch;
         margin-top: 0;
         gap: 0px;
+        width: 100%;
     }
 
     .activities-menu {
@@ -1050,6 +1055,7 @@ ul {
 
     .activities-menu img {
         display: inline-block;
+        width: auto;
     }
 
     .Activites {
@@ -1067,7 +1073,7 @@ ul {
     }
 
     .zone {
-        width: 5px;
+        width: 99%;
         height: 49px;
         display: flex;
         align-self: stretch;
@@ -1079,13 +1085,14 @@ ul {
     }
 
     .france {
-        justify-content: flex-start;
-        padding-left: 24px;
+        justify-content: center;
+        
         border: 1px solid var(--Grey, #F2F2F2);
+        
     }
 
     .mf {
-        width: 235px;
+        width: 29%;
     }
 
     .top .marseille_france {
@@ -1133,9 +1140,13 @@ ul {
         height: 1510px;
         margin-top: 20px;
     }
-
+.hebergements-and-populaires .hebergements-cards{
+    width: 100%;
+ 
+}
     .hebergements-and-populaires .hebergements {
         background: none;
+        width: 100%;
     }
 
     .hebergements.hebergements-cards {
@@ -1143,7 +1154,7 @@ ul {
     }
 
     .hebergements-cards img {
-        width: 335px;
+        width: auto;
         height: 116px;
         border-radius: 20px 20px 0px 0px;
     }
@@ -1158,7 +1169,7 @@ ul {
         flex-direction: column;
         height: 1000px;
         gap: 15px;
-        width: 375px;
+        width: 100%;
         margin-bottom: 0;
         margin-top: 3px;
         padding: 0;
@@ -1169,7 +1180,7 @@ ul {
         flex-direction: column;
         height: 1000px;
         gap: 15px;
-        width: 375px;
+        width: 100%;
         margin-top: 0;
         margin-bottom: 0;
         padding: 0;
@@ -1180,12 +1191,12 @@ ul {
     }
 
     .first .card {
-        width: 335px;
+        width: 97%;
         height: 200px;
     }
 
     .last .card {
-        width: 335px;
+        width: 97%;
         height: 200px;
     }
 
@@ -1204,11 +1215,12 @@ ul {
 
     .hebergements-and-populaires .populaires {
         border-radius: 0;
+        width: 100%;
     }
 
     .populaires-cards .card-content {
         display: flex;
-        width: 223.333px;
+        width: 100%;
         padding: 10px 5px 5px 15px;
         flex-direction: column;
         align-items: flex-start;
@@ -1240,7 +1252,7 @@ ul {
     }
 
     .populaires-cards .card {
-        width: 325px;
+        width: 97%;
         height: 146px;
         margin-top: 1px;
     }
@@ -1261,6 +1273,7 @@ ul {
         align-items: center;
         gap: 25px;
         align-self: stretch;
+        width: 100%;
     }
 
     .euro {
@@ -1274,31 +1287,30 @@ ul {
     }
 
     .fa-solid .fa-chart-line {
-        width: 200%
+        width: 100%
     }
 
     .title2 {
         font-size: 23px;
         width: 315px;
         height: 30px;
-        margin-left: 20px;
         padding-top: 20px;
         padding-bottom: 10px;
     }
 
     .activities {
-        width: 375px;
+        width: 100%;
         height: 970px;
-        margin-left: 15px;
         margin-bottom: 30px;
+        
     }
 
     .activities-marseille {
-        width: 375px;
+        width: 100%;
         height: 825px;
         display: flex;
         flex-direction: column;
-        margin: 20px;
+       
     }
 
     .activities .title_2 {
@@ -1309,16 +1321,16 @@ ul {
     }
 
     .activities-marseille .card {
-        width: 327px;
+        width: 100%;
     }
 
     .activities-marseille .card img {
-        width: 323px;
+        width: 85%;
         height: 145px;
     }
 
     .activities-marseille .card-content {
-        width: 323px;
+        width: 85%;
         height: 65px;
     }
 
@@ -1338,7 +1350,7 @@ ul {
     }
 
     .framed {
-        width: 375px;
+        width: 100%;
         height: 480px;
         display: flex;
         flex-direction: column;
