@@ -575,7 +575,7 @@ a {
     display: flex;
     align-items: flex-start;
     align-self: stretch;
-    height: 163px;
+    height: 175px;
 }
 
 .about-cards,
@@ -710,7 +710,7 @@ ul {
     }
 
     .framed {
-        height: 165px;
+        height: 175px;
         margin-top: 35px;
     }
 
@@ -775,7 +775,7 @@ ul {
     .assistance-cards {
         font-size: 16px;
         line-height: 17px;
-        height: 160px;
+        height: 175px;
     }
 
     .framed .our_hebergements-cards {
@@ -870,29 +870,29 @@ ul {
         font-size: 18px;
         font-weight: 700;
         margin-top: 35px;
-        padding-left: 5px;
+        padding-left: 10px;
     }
 
     .filterbar .logos {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-
         gap: 20px;
         align-self: stretch;
         height: 110px;
+        padding-left: 5px;
     }
 
     .logos .romantic-best_of {
         margin-left: 0;
-        width: 100%;
+        width: 90%;
         height: 67px;
         justify-content: center;
         gap: 10px;
     }
 
     .logos .eco-family {
-        width: 100%;
+        width: 90%;
         height: 67px;
         justify-content: center;
         gap: 10px;
@@ -918,7 +918,6 @@ ul {
         align-self: center;
         width: 98%;
         margin-top: 35px;
-        padding-left: 10px;
     }
 
     .appartments .city {
