@@ -362,7 +362,9 @@ header {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
+
 
 /******************************* Hebergements *****************************/
 
@@ -545,7 +547,6 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 59%;
 
 }
 
@@ -565,7 +566,7 @@ header {
 }
 
 .populaires-cards {
-    height: 80%;
+    
 }
 
 
@@ -635,6 +636,7 @@ ul {
     .container {
         margin-left: 50px;
         margin-right: 50px;
+        width: 100%;
     }
 
     .booki {
@@ -836,6 +838,7 @@ ul {
 
     .container {
         margin: auto;
+        width: 100%;
     }
 
     .hebergements-and-populaires {
@@ -1362,12 +1365,12 @@ width: 100%;
     }
 
     .activities-marseille .card img {
-        width: 85%;
+        width: 91%;
         height: 145px;
     }
 
     .activities-marseille .card-content {
-        width: 85%;
+        width: 91%;
         height: 65px;
     }
 
@@ -1388,7 +1391,6 @@ width: 100%;
     }
 
     footer {
-        width: 100%;
         height: 510px;
         display: flex;
         flex-direction: column;
@@ -1396,6 +1398,7 @@ width: 100%;
         gap: 20px;
         align-self: stretch;
     }
+
 
     .about-cards footer{
         padding-top: 16px;
