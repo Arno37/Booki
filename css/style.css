@@ -2,7 +2,7 @@
 
  * General ***********/
 
-* {
+ * {
     font-family: "Raleway", sans-serif;
 }
 
@@ -16,18 +16,9 @@
     color: var(--main-color);
 }
 
-.i {
-    width: 22px;
-    height: 19px;
-    border-radius: 100%;
-    border: 1px solid #ccc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 1px;
-    padding-bottom: 2px;
-    font-size:smaller;
-   
+.fa-solid.fa-info {
+    font-size: 10px;
+    margin-bottom: 3px;
 }
 
 body {
@@ -114,20 +105,15 @@ a {
     height: 79px;
 }
 
-.topbar .menu {
-    width: 100%;
-    height: 35px;
+.menu {
     display: flex;
     gap: 68px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    list-style: none;
+    max-height: 10px;
+    margin-top: 25px;
 }
-
-.menu {
-        display: flex;
-        gap: 68px;
-        align-items: flex-end;
-        justify-content: flex-end;
-        list-style: none;
-    }
 
 .logos {
     display: flex;
@@ -410,6 +396,7 @@ a {
 .hebergements-cards img {
     height: 112px;
     border-radius: 20px 20px 0px 0px;
+    width: 100%;
 }
 
 .first {
@@ -459,7 +446,7 @@ a {
     margin-top: 4px;
     padding-left: 15px;
     font-size: 16px;
-    height: 19px;
+    height: 12px;
     width: 220px;
 }
 
@@ -525,6 +512,7 @@ a {
 }
 
 .populaires {
+    height: 634px;
     margin-left: 30px;
 }
 
@@ -545,6 +533,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 59%;
 
 }
 
@@ -590,15 +579,6 @@ a {
     height: 163px;
 }
 
-.card-content li {
-    margin-bottom: 20px; 
-}
-
-.card-content .bold{
-    font-weight: 600;
-    font-size: 18px;
-}
-
 ul {
     list-style-type: none;
 }
@@ -610,6 +590,13 @@ ul {
     gap: 15px;
     flex: 1 0 0;
     align-self: stretch;
+}
+ h4 {
+    padding-left: 40px;
+ }
+
+.card-content ul li {
+    margin-bottom: 20px; /* Ajouter une marge de 10px en bas de chaque élément de liste */
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -649,6 +636,7 @@ ul {
         align-items: flex-end;
         justify-content: flex-end;
         list-style: none;
+        margin-top: 25px;
     }
 
     .activities-menu img {
@@ -775,7 +763,7 @@ ul {
     .assistance-cards {
         font-size: 16px;
         line-height: 17px;
-        height: 175px;
+        height: 160px;
     }
 
     .framed .our_hebergements-cards {
@@ -789,28 +777,11 @@ ul {
     ul {
         list-style-type: none;
     }
-
-    .i {
-        width: 22px;
-        height: 19px;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-  
-    }
-
-    .card-content .bold {
-        font-weight: bold;
-    }
 }
 
 /* Small devices (phones, less than 768px) */
 @media (min-width: 320px) and (max-width: 767.98px) {
     /* ... */
-
-    .container{
-        width: 100%;
-    }
 
     .fa-solid.fa-star.neutral-star {
         color: gainsboro;
@@ -845,6 +816,7 @@ ul {
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
+        margin-bottom: 55px;
     }
 
     .populaires {
@@ -870,29 +842,30 @@ ul {
         font-size: 18px;
         font-weight: 700;
         margin-top: 35px;
-        padding-left: 10px;
+        padding-left: 5px;
     }
 
     .filterbar .logos {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+
         gap: 20px;
         align-self: stretch;
+        width: 91%;
         height: 110px;
-        padding-left: 5px;
     }
 
     .logos .romantic-best_of {
         margin-left: 0;
-        width: 90%;
+        width: 100%;
         height: 67px;
         justify-content: center;
         gap: 10px;
     }
 
     .logos .eco-family {
-        width: 90%;
+        width: 100%;
         height: 67px;
         justify-content: center;
         gap: 10px;
@@ -918,6 +891,7 @@ ul {
         align-self: center;
         width: 98%;
         margin-top: 35px;
+        padding-left: 10px;
     }
 
     .appartments .city {
@@ -1012,45 +986,39 @@ ul {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        border-bottom: 2px solid #ccc;  
+        padding-bottom: 15px;     
     }
 
     .blue{
-        width: 100%;
+        width: 178px;
         text-align: center;
     }
 
 .grey{
-    width: 100%;
+    width: 177px;
     text-align: center;
 }
 
-    .accomodations-menu {
-        text-align: end;
-        font-family: Raleway;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        text-align: center;
-        display: inline-block;
-        padding-bottom: 15px;
-    border-bottom: 2px solid transparent;
-    width: 178px;
-    }
+.accomodations-menu {         
+    text-align: end;
+    font-family: Raleway;        
+    font-size: 16px;         
+    font-style: normal;         
+    font-weight: 400;         
+    line-height: normal;         
+    text-align: center;         
+    display: inline-block;         
+    padding-bottom: 15px;     
+    border-bottom: 2px solid transparent;     
+    width: 178px;     }      
+    
+    .accomodations-menu:hover {         
+        border-bottom: 2px solid #0065FC;     
+    }      
 
-    .accomodations-menu:hover {
-        border-bottom: 2px solid #0065FC;
-    }
-
-    .accomodations-menu :hover {
-        border-top: 2px solid transparent;
-    }
-
-    .activities-menu {
-        display: inline-block;
-        padding-bottom: 15px;
-        border-bottom: 2px solid #ccc;
-        width: 177px;
+    .accomodations-menu :hover {         
+        border-top: 2px solid transparent;     
     }
 
     .magnifying_glass {
@@ -1170,7 +1138,7 @@ ul {
     }
 
     .hebergements-cards img {
-        width: auto;
+        width: 100%;
         height: 116px;
         border-radius: 20px 20px 0px 0px;
     }
@@ -1240,7 +1208,7 @@ ul {
     .populaires-cards .card-content {
         display: flex;
         width: 100%;
-        padding: 10px 5px 5px 15px;
+        padding: 0 8px 10px 15px;
         flex-direction: column;
         align-items: flex-start;
         gap: 24px;
@@ -1277,7 +1245,7 @@ ul {
     }
 
     .populaires-cards img {
-        width: 117px;
+        width: 100px;
         height: 146px;
     }
 
@@ -1361,6 +1329,7 @@ ul {
         padding-right: 19px;
     }
 
+
     .advertise {
         font-size: 19px;
         font-weight: 700;
@@ -1401,11 +1370,6 @@ ul {
 
     ul {
         list-style-type: none;
-    }
-
-    .card-content .bold {
-        font-weight: bold;
-        font-size: 18px;
     }
 
     .card-text {
