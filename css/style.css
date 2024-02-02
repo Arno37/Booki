@@ -851,6 +851,12 @@ ul {
         display: flex;
     }
 
+    .menu{
+        gap:0;
+        width: 100%;
+        place-content: center;
+    }
+
     .filterbar {
         display: flex;
         flex-direction: column;
@@ -899,7 +905,7 @@ ul {
 
     .eco-family .economic,
     .family {
-        width: 35%;
+        width: 100%;
         height: 42px;
         justify-content: flex-end;
         font-size: 14px;
@@ -907,7 +913,7 @@ ul {
 
     .romantic-best_of .romantic,
     .best_of {
-        width: 35%;
+        width: 100%;
         height: 42px;
         justify-content: flex-end;
         font-size: 14px;
@@ -1017,23 +1023,21 @@ ul {
     }
 
     .blue{
-        width: 178px;
+        width: 100%;
         text-align: center;
     }
 
 .grey{
-    width: 177px;
+    width: 100%;
     text-align: center;
 }
 
 .accomodations-menu {         
-    text-align: end;
     font-family: Raleway;        
     font-size: 16px;         
     font-style: normal;         
     font-weight: 400;         
-    line-height: normal;         
-    text-align: center;         
+    line-height: normal;               
     display: inline-block;         
     padding-bottom: 15px;     
     border-bottom: 2px solid transparent;     
@@ -1096,7 +1100,7 @@ ul {
     .france {
         justify-content: center;
         border: 1px solid var(--Grey, #f2f2f2);
-        width: 63%;
+        width: 82%;
     }
 
     .mf {
