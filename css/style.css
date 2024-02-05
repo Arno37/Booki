@@ -34,6 +34,29 @@ body {
     margin-right: 50px;
 }
 
+.card {
+    border: 4px solid #fff; 
+    border-radius: 20px; 
+}
+
+.activities-marseille .card {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.hebergements .card {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+
+.france{
+        border: 1px solid #ccc; /* Bordure grise */
+        border-radius: 5px; /* Arrondir les coins */
+        border-left: none;
+        border-right: none;
+}
+
+
 a {
     color: inherit;
     text-decoration: none;
@@ -638,7 +661,7 @@ ul {
 
     .populaires-cards {
         display: flex;
-        justify-content: stretch;
+        justify-content: center;
         gap: 20px;
         align-self: stretch;
     }
@@ -743,7 +766,6 @@ ul {
 }
     .activities {
         height: 350px;
-        width: 93%;
     }
 
     .card-title {
@@ -848,7 +870,8 @@ ul {
         gap: 0;
         align-self: stretch;
         width: 100%;
-        height: 77px;
+        height: 190px;
+        padding-left: 20px;
     }
 
     .filterbar .filters {
@@ -875,14 +898,14 @@ ul {
 
     .logos .romantic-best_of {
         margin-left: 0;
-        width: 100%;
+        width: 105%;
         height: 67px;
         justify-content: center;
         gap: 10px;
     }
 
     .logos .eco-family {
-        width: 100%;
+        width: 105%;
         height: 67px;
         justify-content: center;
         gap: 10px;
@@ -917,7 +940,7 @@ ul {
 
     .top {
         width: 100%;
-        height: 460px;
+        height: 200px;
         display: flex;
         padding: 0px 20px;
         flex-direction: column;
@@ -1089,7 +1112,7 @@ width: 100%;
         justify-content: flex-start;
         padding-left: 20px;
         border: 1px solid var(--Grey, #f2f2f2);
-        width: 60%;
+        width: 82%;
     }
     .mf {
         width: 29%;
