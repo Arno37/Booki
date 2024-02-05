@@ -4,6 +4,7 @@
 
  * {
     font-family: "Raleway", sans-serif;
+    
 }
 
 :root {
@@ -25,6 +26,7 @@ body {
     max-width: 1440px;
     min-width: 320px;
     margin: 0 auto;
+    margin-bottom: 0;
 }
 
 .container {
@@ -60,21 +62,12 @@ a {
     height: 19px;
 }
 
-.first,
-.last,
-.card {
-    border-radius: 20px;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-    border-radius: 20px;
-    padding: 5px;
-}
-
 .populaires-cards .card {
     border-radius: 20px;
     background: #fff;
     display: flex;
     margin-top: 33px;
-    height: 30%;
+    height: 29.5%;
 }
 
 .card img {
@@ -146,7 +139,7 @@ header {
 }
 
 .accomodations-menu :hover {
-    border-top: #0065fc solid 2px;
+    border-top: #0065fc solid 3px;
     padding-top: 14px;
 }
 
@@ -165,19 +158,27 @@ header {
 .black-button i {
     color: #000;
     padding: 15px 20px;
+    
 }
 
-.fa-info i{
-    border-radius: 50%; 
-    border: 1px solid #ccc; 
-    width: 20px; 
-    height: 20px; 
-    display: inline-flex; 
-    justify-content: center; 
-    align-items: center; 
-    text-align: center; 
-    font-size: 16px; 
+.fa-solid.fa-info {
+
+        width: 22px;
+        height: 22px;
+        border-radius: 100%;
+        border: 1px solid #ccc; /* Couleur de la bordure */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1px;
+        padding-bottom: 1px;
+        
+    }
+        
+    
+
 }
+
 
 .search {
     width: 133px;
@@ -367,6 +368,13 @@ header {
 
 
 /******************************* Hebergements *****************************/
+.populaires section {
+    height: 80%;
+}
+
+.populaires {
+    margin-left: 30px;
+}
 
 .hebergements-title {
     color: #000;
@@ -413,27 +421,6 @@ header {
     width: 100%;
 }
 
-.first {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-
-.first .card-content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    align-self: stretch;
-}
-
-.last {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-
 .advertise {
     color: #000;
     font-family: Raleway;
@@ -441,8 +428,8 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    height: 21px;
-    padding-top: 15px;
+    margin-top: 15px;
+    
 }
 
 .hebergements-cards .card-subtitle {
@@ -485,6 +472,7 @@ header {
     height: 370px;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
+    display: block;
 
 }
 
@@ -522,12 +510,7 @@ header {
 
 /******************************* Populaires *****************************/
 .populaires section {
-    height: 80%;
-}
-
-.populaires {
-    height: 634px;
-    margin-left: 30px;
+    height: 100%;
 }
 
 .populaires-title {
@@ -564,11 +547,6 @@ header {
     width: 22.6%;
     height: 25%;
 }
-
-.populaires-cards {
-    
-}
-
 
 /******************************* FOOTER *****************************/
 
@@ -632,11 +610,12 @@ ul {
         margin-left: 0px;
         padding-bottom: 40px;
     }
+    
 
     .container {
         margin-left: 50px;
         margin-right: 50px;
-        width: 100%;
+
     }
 
     .booki {
@@ -685,11 +664,11 @@ ul {
     .populaires-cards .card {
         width: 265px;
         height: 135px;
+        margin-top: 20px;
     }
 
     .populaires-cards img {
-        width: 91px;
-        height: 135px;
+
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
     }
@@ -740,7 +719,8 @@ ul {
     }
 
     .city{
-        margin:25px
+        margin:25px;
+        margin-left: 0;
     }
 
 
@@ -880,15 +860,17 @@ ul {
         padding-left: 5px;
     }
 
+    .logos {
+        display: flex;
+        gap: 10px;
+    }
     .filterbar .logos {
         display: flex;
-        flex-direction: column;
         align-items: flex-start;
-
+        flex-direction: column;
         gap: 20px;
         align-self: stretch;
         width: 91%;
-        height: 110px;
     }
 
     .logos .romantic-best_of {
@@ -1091,20 +1073,6 @@ width: 100%;
         gap: 10px;
     }
     
-    .i{
-        width: 22px; 
-        height: 19px; 
-        border-radius: 100%; 
-        border: 1px solid #ccc;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-left: 1px;
-   
-    }
-
-
-
     .zone {
         width: 100%;
         height: 40px;
@@ -1121,9 +1089,8 @@ width: 100%;
         justify-content: flex-start;
         padding-left: 20px;
         border: 1px solid var(--Grey, #f2f2f2);
-        width: 80%;
+        width: 60%;
     }
-
     .mf {
         width: 29%;
     }
@@ -1179,15 +1146,6 @@ width: 100%;
         height: 1480px;
     }
 
-    .first,
-    .last,
-    .card {
-        border-radius: 20px;
-        filter: drop-shadow(0px 3px 15px #f2f2f2);
-        border-radius: 20px;
-        padding: 5px;
-    }
-
     .hebergements-cards img {
         width: 100%;
         height: 116px;
@@ -1199,60 +1157,14 @@ width: 100%;
         display: flex;
     }
 
-    .first {
-        display: flex;
-        flex-direction: column;
-        height: 505px;
-        gap: 15px;
-        width: 100%;
-        margin-bottom: 0;
-        margin-top: 3px;
-        padding: 0;
-    }
-
-    .last {
-        display: flex;
-        flex-direction: column;
-        height: 680px;
-        gap: 15px;
-        width: 100%;
-        margin-top: 50%;
-        padding: 0;
-    }
-
     .card {
         box-shadow: none;
-    }
-
-    .first .card {
-        width: 97%;
-        height: 200px;
-        background-color: white;
-    }
-
-    .last .card {
-        width: 97%;
-        height: 200px;
-        background-color: white;
-    }
-
-    .last .display_1 {
-        font-size: 30px;
-    }
-
-    .first .card-subtitle {
-        text-align: center;
-    }
-
-    .first .card-content {
-        width: 335px;
     }
 
     .hebergements-and-populaires .populaires {
         border-radius: 0;
         width: 100%;
         height: 610px;
-        margin-top: 35px;
         margin-left: 0;
     }
 
@@ -1337,7 +1249,6 @@ width: 100%;
     .activities {
         width: 100%;
         height: 1025px;
-        margin:0;
     }
 
     .activities-marseille {
@@ -1388,6 +1299,7 @@ width: 100%;
         width: 335px;
         height: 21px;
         margin: 0;
+        margin-top: 15px;
     }
 
     footer {
@@ -1427,3 +1339,11 @@ width: 100%;
         gap: 10px;
     }
 }
+
+    @media screen and (max-width: 375px) {
+
+        .logos {
+            flex-wrap: wrap;
+            justify-content: center; 
+    }
+    }
