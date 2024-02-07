@@ -59,6 +59,12 @@ body {
 a {
     color: inherit;
     text-decoration: none;
+    width: 100%;
+}
+
+.card .picture{
+    width: 85%;
+    
 }
 
 .activities-menu img {
@@ -93,7 +99,8 @@ a {
     background: #fff;
     display: flex;
     margin-top: 20px;
-    height: 37%;
+    height: 28%;
+    width: 100%;
 }
 
 .card img {
@@ -377,7 +384,7 @@ header {
 .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
-    padding: 3%;
+    padding: 2%;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -540,17 +547,17 @@ header {
 }
 
 .populaires-cards img {
-    width: 30%;
+    width: 60%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    height: 100%;
 }
 
 .populaires-cards .card-content {
-    padding-left: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    width: 145%;
 }
 
 .populaires-cards .card-title {
@@ -565,11 +572,17 @@ header {
 
 .populaires-cards {
     margin-top: 10px;
+    height: 100%;
+    width: 98%;
 }
 
 .photos {
     width: 22.6%;
     height: 25%;
+}
+
+.picture a{
+    width: 100%;
 }
 
 /******************************* FOOTER *****************************/
@@ -885,19 +898,19 @@ h4 {
         align-items: flex-start;
         flex-direction: column;
         align-self: stretch;
-        width: 96%;
+        width: 100%;
     }
 
     .logos .romantic-best_of {
         margin-left: 0;
-        width: 105%;
+        width: 100%;
         height: 67px;
         justify-content: center;
         gap: 10px;
     }
 
     .logos .eco-family {
-        width: 105%;
+        width: 100%;
         height: 67px;
         justify-content: center;
         gap: 10px;
@@ -905,7 +918,7 @@ h4 {
 
     .eco-family .economic,
     .family {
-        width: 33%;
+        width: 100%;
         height: 42px;
         justify-content: flex-end;
         font-size: 14px;
@@ -913,7 +926,7 @@ h4 {
 
     .romantic-best_of .romantic,
     .best_of {
-        width: 33%;
+        width: 100%;
         height: 42px;
         justify-content: flex-end;
         font-size: 14px;
@@ -1018,7 +1031,7 @@ h4 {
         font-weight: 400;
         line-height: normal;
         display: inline-block;
-        border-bottom: 2px solid transparent;
+        border-bottom: 2px solid #f2f2f2;
         padding-bottom: 15px;
     }
 
@@ -1043,7 +1056,7 @@ h4 {
         text-align: center;
         display: inline-block;
         padding-bottom: 15px;
-        border-bottom: 2px solid transparent;
+        border-bottom: 2px solid #f2f2f2;
         width: 100%;
     }
 
@@ -1094,7 +1107,7 @@ h4 {
 
     .france {
         border: 1px solid var(--Grey, #f2f2f2);
-        width: 57%;
+        width: 100%;
         text-align: start;
         padding-left: 20px;
     }
@@ -1177,6 +1190,7 @@ h4 {
         width: 99%;
         margin: 0;
         padding: 5%;
+        border-radius: 0px;
     }
 
     .populaires-cards .card-content {
