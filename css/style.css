@@ -820,6 +820,7 @@ h4 {
         align-self: stretch;
         width: 100%;
         height: 190px;
+        padding-left: 20px;
     }
 
     .filterbar .filters {
@@ -846,14 +847,14 @@ h4 {
 
     .logos .romantic-best_of {
         margin-left: 0;
-        width: 100%;
+        width: 95%;
         height: 67px;
         justify-content: center;
         gap: 10px;
     }
 
     .logos .eco-family {
-        width: 100%;
+        width: 95%;
         height: 67px;
         justify-content: center;
         gap: 10px;
@@ -879,7 +880,7 @@ h4 {
 
     .top {
         width: 100%;
-        height: 200px;
+        height: 100px;
         display: flex;
         padding: 0px 20px;
         flex-direction: column;
@@ -1007,19 +1008,11 @@ h4 {
         border-radius: 15px;
         border: 1px solid var(--Grey, #F2F2F2);
         background: #0065FC;
+        display: block;
+        height: 50px;
     }
 
-    .accomodations-menu:hover {
-        border-bottom: 2px solid #0065FC;
-    }
-
-   
-
-    .fa-location-dot {
-        padding: 15px 0 0 20px;
-    }
-
-    .magnifying_glass .fa-solid.fa-magnifying-glass.fa-lg {
+    .square i {
         color: #fff;
         display: inline-flex;
         height: 20px;
@@ -1028,12 +1021,23 @@ h4 {
         gap: 10px;
     }
 
+    .accomodations-menu:hover {
+        border-bottom: 2px solid #0065FC;
+    }
+
+    .fa-location-dot {
+        padding: 15px 0 0 20px;
+    }
+
+
+
     .zone {
         width: 100%;
         height: 40px;
         display: flex;
         align-self: stretch;
         margin-top: 20px;
+        padding-left: 20px;
     }
 
     .france {
@@ -1246,6 +1250,7 @@ h4 {
         margin: 0;
         margin-top: 15px;
     }
+
 
     footer {
         height: 510px;
