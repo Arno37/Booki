@@ -251,7 +251,7 @@ header {
     font-weight: bold;
 }
 
-.magnifying_glass {
+.square {
     display: none;
 }
 
@@ -1002,22 +1002,24 @@ h4 {
     }
 
 
-    .magnifying_glass {
+    .square {
         border-radius: 15px;
         border: 1px solid var(--Grey, #F2F2F2);
         background: #0065FC;
         display: block;
         height: 50px;
+        width: 50px;
     }
 
-    .square i {
+    .square i  {
         color: #fff;
         display: inline-flex;
         height: 40%;
         width: 100%;
-        padding: 15px 15px;
+        padding: 25px 15px;
         align-items: center;
         gap: 10px;
+        display: block;
     }
 
     .accomodations-menu:hover {
@@ -1039,7 +1041,7 @@ h4 {
 
     .france {
         border: 1px solid var(--Grey, #f2f2f2);
-        width: 79%;
+        width: 78%;
         text-align: start;
         padding-left: 20px;
     }
