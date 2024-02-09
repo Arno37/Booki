@@ -600,7 +600,6 @@ h4 {
         justify-content: center;
         gap: 20px;
         align-self: stretch;
-        padding-left: 7px;
     }
 
     .populaires-cards .card-content {
@@ -785,8 +784,7 @@ h4 {
         flex-direction: column;
         gap: 15px;
         padding-top: 0;
-    
-
+        width: 101%;
     }
 
     .container {
