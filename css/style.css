@@ -784,7 +784,7 @@ h4 {
         flex-direction: column;
         gap: 15px;
         padding-top: 0;
-        width: 101%;
+        width: 102%;
     }
 
     .container {
@@ -1249,11 +1249,6 @@ h4 {
     .our_hebergements-cards .card-content {
         width: 200px;
         height: 110px;
-    }
-
-    .assistance-cards .card-content {
-        width: 200px;
-        height: 200px;
     }
 
     ul {
