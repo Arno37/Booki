@@ -162,7 +162,12 @@ header {
     color: var(--Blue, #0065fc);
 }
 
-.accomodations-menu :hover {
+.activities-menu:hover a{
+    border-top: #0065fc solid 2px;
+    padding-top: 18px;
+}
+
+.accomodations-menu:hover a {
     border-top: #0065fc solid 2px;
     padding-top: 18px;
 }
@@ -759,6 +764,7 @@ h4 {
 /* Small devices (phones, less than 768px) */
 @media (min-width: 320px) and (max-width: 767.98px) {
     /* ... */
+   
     .fa-solid.fa-info {
         width: 28px;
         height: 22px;
@@ -789,6 +795,7 @@ h4 {
 
     .container {
         margin: auto;
+        box-sizing: border-box;
     }
 
     .hebergements-and-populaires {
@@ -819,16 +826,11 @@ h4 {
 
     .filterbar .filters {
         width: 100%;
-        height: 21px;
+        height: 30px;
         font-size: 18px;
         font-weight: 700;
         margin-top: 35px;
         padding-left: 15px;
-    }
-
-    .logos {
-        display: flex;
-        gap: 10px;
     }
 
     .filterbar .logos {
@@ -842,7 +844,6 @@ h4 {
     .logos .romantic-best_of {
         margin-left: 0;
         width: 95%;
-        height: 67px;
         justify-content: center;
         gap: 10px;
     }
@@ -864,11 +865,10 @@ h4 {
     .appartments {
         align-self: center;
         padding-left: 20px;
-        margin-top: 35px;
     }
 
     .appartments .city {
-        font-size: 17px;
+        font-size: 16px;
         padding-left: 5px;
     }
 
@@ -909,11 +909,7 @@ h4 {
     }
 
     .infogroup .one {
-        align-self: stretch;
-        font-size: 22px;
-        align-self: stretch;
-        width: 100%;
-        height: 52px;
+        margin-top: 10px;
     }
 
     .infogroup .two {
@@ -934,7 +930,7 @@ h4 {
 
     .booki img {
         display: flex;
-        padding: 30px;
+        margin: 30px;
         flex-direction: column;
         align-items: flex-start;
         gap: 10px;
@@ -1030,16 +1026,16 @@ h4 {
 
     .zone {
         width: 100%;
-        height: 40px;
+        height: 20px;
         display: flex;
         align-self: stretch;
-        margin-top: 20px;
+        margin-top: 31px;
         padding-left: 20px;
     }
 
     .france {
         border: 1px solid var(--Grey, #f2f2f2);
-        width: 65%;
+        width: 67%;
         text-align: start;
         padding-left: 20px;
     }
@@ -1056,6 +1052,14 @@ h4 {
         height: 26px;
         font-weight: 700;
     }
+    .activities-menu:hover a{
+        border-top: transparent;
+    }
+    
+    .accomodations-menu:hover a {
+        border-top: transparent;
+    }
+    
 
 
     .hebergements-cards .card-subtitle {
@@ -1170,7 +1174,6 @@ h4 {
 
     .title2 {
         font-size: 23px;
-        padding-top: 50px;
         padding-bottom: 10px;
     }
 
@@ -1182,7 +1185,6 @@ h4 {
     }
 
     .activities-marseille {
-        width: 88%;
         display: flex;
         flex-direction: column;
         gap: 15px;
