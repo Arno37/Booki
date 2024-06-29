@@ -24,3 +24,14 @@ This initial code provides the foundational HTML and CSS elements, and I will us
 
 - Basic knowledge of HTML and CSS
 - Understanding of Git for version control
+
+## Development
+
+To start working on the project, open the index.html file in your preferred code editor and begin completing the HTML and CSS code as per the mockups and specifications provided.
+Contribution
+
+Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+This project is licensed under the MIT License.
