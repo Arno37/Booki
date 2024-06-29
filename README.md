@@ -27,6 +27,12 @@ This initial code provides the foundational HTML and CSS elements, and I will us
 - Basic knowledge of HTML and CSS
 - Understanding of Git for version control
 
+## Installation
+
+Clone the repository: git clone https://github.com/your-username/booki.git
+
+Navigate to the project directory: cd booki
+
 ## Development
 
 To start working on the project, open the index.html file in your preferred code editor and begin completing the HTML and CSS code as per the mockups and specifications provided.
