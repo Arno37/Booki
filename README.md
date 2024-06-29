@@ -2,6 +2,8 @@
 
 ![image](https://github.com/Arno37/BOOKI/assets/140819974/dc7e8f42-bab2-4fcb-b95e-d62c0b873e22)
 
+## Description
+
 Booki is a web application designed to help users find accommodations and activities in the city of their choice.
 
 ## Project Overview
