@@ -19,3 +19,8 @@ To get started, an initial file structure and base code for the project have bee
 - An images folder containing all the images used on the site
 
 This initial code provides the foundational HTML and CSS elements, and I will use it as a reference to develop the rest of the code. I must maintain the same folder structure and continuously version my project on Git throughout the development process.
+
+## Prerequisites
+
+- Basic knowledge of HTML and CSS
+- Understanding of Git for version control
